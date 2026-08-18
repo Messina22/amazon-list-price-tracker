@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Put the repo root on sys.path so tests can import the price_tracker
+# package without installing it.
+pythonpath = ["."]
+testpaths = ["tests"]

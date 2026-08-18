@@ -20,10 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # No dependencies to install: tracker.py is standard library only and
-      # runs on the Python already present on the runner.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Record today's prices
-        run: python3 tracker.py run
+        run: python -m price_tracker run
 
       - name: Commit updated price history
         run: |

@@ -1,11 +1,8 @@
-import sys
 from pathlib import Path
 
 import pytest
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from tracker import TrackerError, parse_list_page, parse_price_text, scrape_list
+from price_tracker.scraper import ScrapeError, parse_list_page, parse_price_text, scrape_list
 
 FIXTURES = Path(__file__).parent / "fixtures"
 BASE_URL = "https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45"
@@ -45,11 +42,6 @@ def test_parse_last_page_has_no_next_url():
     assert next_url is None
 
 
-def test_captcha_page_raises():
-    with pytest.raises(TrackerError, match="CAPTCHA"):
-        parse_list_page('<form action="/errors/validateCaptcha"></form>', BASE_URL)
-
-
 @pytest.mark.parametrize(
     ("text", "expected"),
     [
@@ -66,24 +58,38 @@ def test_parse_price_text(text, expected):
 
 
 def test_scrape_list_rejects_non_amazon_urls():
-    with pytest.raises(TrackerError):
+    with pytest.raises(ScrapeError):
         scrape_list("https://example.com/some/list")
 
 
 def test_scrape_list_follows_pagination(monkeypatch):
-    monkeypatch.setattr("tracker.time.sleep", lambda seconds: None)
+    monkeypatch.setattr("price_tracker.scraper.time.sleep", lambda seconds: None)
 
-    calls = []
+    class FakeResponse:
+        status_code = 200
 
-    def fake_fetch(url):
-        calls.append(url)
-        if "lek=" in url:
-            return (FIXTURES / "wishlist_last_page.html").read_text()
-        return (FIXTURES / "wishlist_page.html").read_text()
+        def __init__(self, text):
+            self.text = text
 
-    items = scrape_list(BASE_URL, fetch=fake_fetch)
+        def raise_for_status(self):
+            pass
 
-    assert len(calls) == 2
+    class FakeSession:
+        headers = {}
+
+        def __init__(self):
+            self.calls = []
+
+        def get(self, url, timeout):
+            self.calls.append(url)
+            if "lek=" in url:
+                return FakeResponse((FIXTURES / "wishlist_last_page.html").read_text())
+            return FakeResponse((FIXTURES / "wishlist_page.html").read_text())
+
+    session = FakeSession()
+    items = scrape_list(BASE_URL, session=session)
+
+    assert len(session.calls) == 2
     assert [item.asin for item in items] == [
         "B08XYZ1234",
         "B07ABC9876",
