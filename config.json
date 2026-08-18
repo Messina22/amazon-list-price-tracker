@@ -1,7 +1,0 @@
-{
-  "_comment": "list_url: share link of your PUBLIC Amazon list, e.g. https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45. retention_days: days of price history to keep (null = keep forever).",
-  "list_url": "",
-  "retention_days": 365,
-  "history_file": "data/price_history.csv",
-  "items_file": "data/items.json"
-}
