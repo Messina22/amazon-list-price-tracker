@@ -3,7 +3,7 @@
 # URL of your PUBLIC Amazon list (wishlist). Open your list on amazon.com,
 # set sharing to "Public" (or "Anyone with the link"), and paste the link here.
 # Example: https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45
-list_url: ""
+list_url: https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL
 
 # How many days of price history to keep. Anything older than this many days
 # is deleted each time the tracker runs.
