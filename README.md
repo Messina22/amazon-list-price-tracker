@@ -4,20 +4,21 @@ Track the daily prices of every item on one of your public Amazon lists, and
 keep the price history in this repository so you can see how prices change
 over time.
 
+The whole tracker is **one Python file with zero dependencies** — nothing to
+install, no servers, no database. GitHub Actions is the scheduler and the git
+repository is the data store.
+
 ## How it works
 
-1. You point `config.yaml` at the share link of a **public** Amazon list.
-2. A GitHub Actions workflow runs once a day, fetches the list page, and
-   parses out each item's title, ASIN, and current price.
+1. You point `config.json` at the share link of a **public** Amazon list.
+2. A GitHub Actions workflow runs `tracker.py` once a day, fetches the list
+   page, and parses out each item's title, ASIN, and current price.
 3. Each item's price is appended as one row per day to
    `data/price_history.csv`, and the workflow commits that file back to the
    repository — the git history doubles as an audit trail of every price
    change.
 4. Rows older than your configured retention window are deleted on every run,
    so you decide how far back the price history goes.
-
-No servers or databases to run: GitHub Actions is the scheduler and the git
-repository is the data store.
 
 ## Setup
 
@@ -26,12 +27,16 @@ repository is the data store.
    it. Copy the share link (it looks like
    `https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45`).
 
-2. **Configure the tracker.** Edit `config.yaml`:
+2. **Configure the tracker.** Edit `config.json`:
 
-   ```yaml
-   list_url: https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45
-   retention_days: 365   # or null to keep price history forever
+   ```json
+   {
+     "list_url": "https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45",
+     "retention_days": 365
+   }
    ```
+
+   Set `retention_days` to `null` to keep price history forever.
 
 3. **Enable the schedule.** Commit and push to the default branch. The
    `Track prices` workflow (`.github/workflows/track-prices.yml`) runs daily
@@ -40,10 +45,11 @@ repository is the data store.
 
 ## Running locally
 
+Requires only Python 3.10+ — no packages to install:
+
 ```bash
-pip install -r requirements.txt
-python -m price_tracker run       # fetch the list and record today's prices
-python -m price_tracker history   # print the stored history for each item
+python3 tracker.py run       # fetch the list and record today's prices
+python3 tracker.py history   # print the stored history for each item
 ```
 
 Running `run` twice on the same day replaces that day's rows rather than
@@ -67,12 +73,6 @@ duplicating them.
 `data/items.json` holds the latest snapshot of the list (titles, URLs, and
 current prices) for convenience.
 
-## Retention
-
-`retention_days` in `config.yaml` controls how much history is kept. On every
-run, rows older than that many days are deleted. Set it to `null` (or delete
-the line) to keep everything forever.
-
 ## Caveats
 
 - The list must be **public** — the tracker fetches the share page without
@@ -92,7 +92,9 @@ the line) to keep everything forever.
 
 ## Development
 
+Tests are the only thing that needs a package (`pytest`):
+
 ```bash
-pip install -r requirements.txt pytest
+pip install pytest
 pytest
 ```
