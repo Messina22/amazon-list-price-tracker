@@ -1,0 +1,17 @@
+# Amazon List Price Tracker configuration
+
+# URL of your PUBLIC Amazon list (wishlist). Open your list on amazon.com,
+# set sharing to "Public" (or "Anyone with the link"), and paste the link here.
+# Example: https://www.amazon.com/hz/wishlist/ls/1ABCD23EFGH45
+list_url: ""
+
+# How many days of price history to keep. Anything older than this many days
+# is deleted each time the tracker runs.
+# Set to null (or remove the line) to keep price history forever.
+retention_days: 365
+
+# Where price history is stored (a CSV file committed to this repository).
+history_file: data/price_history.csv
+
+# Where the latest snapshot of the list's items is stored.
+items_file: data/items.json
