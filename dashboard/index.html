@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Price history · Amazon list tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,680&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-copy">
+        <p class="eyebrow">Amazon list tracker</p>
+        <h1>Price history</h1>
+        <p class="lede" id="lede">Loading recorded prices…</p>
+      </div>
+      <dl class="stats" id="stats"></dl>
+    </header>
+
+    <div class="toolbar">
+      <label class="search">
+        <span class="sr-only">Search items</span>
+        <input id="search" type="search" placeholder="Search by name or ASIN" autocomplete="off" />
+      </label>
+      <label>
+        <span class="sr-only">Sort</span>
+        <select id="sort">
+          <option value="title">Sort: name</option>
+          <option value="price-asc">Sort: price (low)</option>
+          <option value="price-desc">Sort: price (high)</option>
+          <option value="drop">Sort: biggest drop</option>
+          <option value="rise">Sort: biggest rise</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Date range</span>
+        <select id="range">
+          <option value="all">Range: all time</option>
+          <option value="90">Range: 90 days</option>
+          <option value="30">Range: 30 days</option>
+          <option value="7">Range: 7 days</option>
+        </select>
+      </label>
+    </div>
+
+    <p class="status" id="status" hidden></p>
+
+    <main class="layout">
+      <section class="item-list" id="list" aria-label="Tracked items"></section>
+      <section class="chart-panel" aria-label="Price chart">
+        <div class="chart-heading">
+          <div>
+            <h2 id="chart-title">Select an item</h2>
+            <p class="chart-meta" id="chart-meta"></p>
+          </div>
+          <a class="amazon-link" id="amazon-link" hidden target="_blank" rel="noopener noreferrer">
+            View on Amazon
+          </a>
+        </div>
+        <div class="price-row" id="price-row" hidden>
+          <p class="current-price" id="current-price"></p>
+          <p class="delta" id="delta"></p>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="price-chart" aria-label="Line graph of price over time"></canvas>
+          <p class="chart-empty" id="chart-empty">
+            Choose an item on the left to plot its recorded prices.
+          </p>
+        </div>
+        <p class="chart-note" id="chart-note" hidden></p>
+        <dl class="chart-stats" id="chart-stats"></dl>
+      </section>
+    </main>
+  </body>
+</html>

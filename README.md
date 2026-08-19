@@ -15,9 +15,12 @@ over time.
    change.
 4. Rows older than your configured retention window are deleted on every run,
    so you decide how far back the price history goes.
+5. The same run refreshes `data/dashboard.json`, which the dashboard plots as
+   a line graph per item.
 
-No servers or databases to run: GitHub Actions is the scheduler and the git
-repository is the data store.
+No servers or databases to run: GitHub Actions is the scheduler, the git
+repository is the data store, and the dashboard is a static page over that
+data.
 
 ## Setup
 
@@ -42,12 +45,32 @@ repository is the data store.
 
 ```bash
 pip install -r requirements.txt
-python -m price_tracker run       # fetch the list and record today's prices
-python -m price_tracker history   # print the stored history for each item
+python -m price_tracker run              # fetch the list and record today's prices
+python -m price_tracker history          # print the stored history for each item
+python -m price_tracker dashboard        # open the price-history line graphs
 ```
 
 Running `run` twice on the same day replaces that day's rows rather than
 duplicating them.
+
+## Dashboard
+
+The tracker ships a static dashboard that plots each item's price as a line
+graph from `data/price_history.csv`.
+
+```bash
+python -m price_tracker dashboard
+```
+
+That regenerates `data/dashboard.json` from the CSV and serves the UI at
+http://127.0.0.1:8000/dashboard/. Pick an item in the list to see its chart.
+Search, sort, and range controls filter the same history. With only one day
+recorded, you get a single point; the line fills in as the daily workflow
+appends more rows.
+
+To publish the same view on GitHub Pages, set **Settings → Pages → Source** to
+**GitHub Actions**. The `Deploy dashboard` workflow builds a static site on
+each push to `main` that changes dashboard files or price data.
 
 ## Data format
 
@@ -65,7 +88,8 @@ duplicating them.
 | `available` | `true`/`false`                                                 |
 
 `data/items.json` holds the latest snapshot of the list (titles, URLs, and
-current prices) for convenience.
+current prices) for convenience. `data/dashboard.json` is a derived, chart-ready
+view of that same history; the dashboard reads it, and each `run` rewrites it.
 
 ## Retention
 
@@ -86,7 +110,6 @@ the line) to keep everything forever.
 
 ## Roadmap
 
-- Line-graph generation of each item's price history
 - Notifications (email / push) when an item drops below a threshold or goes
   on sale
 
