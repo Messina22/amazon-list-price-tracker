@@ -15,3 +15,40 @@ history_file: data/price_history.csv
 
 # Where the latest snapshot of the list's items is stored.
 items_file: data/items.json
+
+# --- Notifications -----------------------------------------------------------
+# A digest of how each item's current price compares with its average over the
+# past week (or month). Values written as ${VAR} are read from the environment,
+# so secrets stay out of this committed file — set them as GitHub Actions
+# repository secrets (Settings → Secrets and variables → Actions).
+notifications:
+  enabled: false
+
+  # How often the digest goes out: daily, or weekly on day_of_week.
+  frequency: weekly
+  day_of_week: monday
+
+  # What "average" means: week (7 days), month (30 days), or a number of days.
+  baseline: week
+
+  # Only call an item a mover when it is at least this far from its average.
+  min_change_percent: 1.0
+
+  # Remembers the last send so a re-run on the same day stays quiet.
+  state_file: data/notification_state.json
+
+  email:
+    enabled: false
+    to:
+      - you@example.com
+    from: Amazon Price Tracker <you@example.com>
+    smtp_host: smtp.gmail.com
+    smtp_port: 587
+    security: starttls        # starttls | ssl | none
+    username: ${SMTP_USERNAME}
+    password: ${SMTP_PASSWORD}
+
+  # Any endpoint that accepts a JSON POST — Slack, Discord, Mattermost, ntfy…
+  webhook:
+    enabled: false
+    url: ${PRICE_TRACKER_WEBHOOK_URL}
