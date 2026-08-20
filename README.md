@@ -17,6 +17,9 @@ over time.
    so you decide how far back the price history goes.
 5. The same run refreshes `data/dashboard.json`, which the dashboard plots as
    a line graph per item.
+6. Optionally, the run emails or webhooks you a digest — daily or weekly —
+   comparing each item's current price against its average over the past week
+   or month.
 
 No servers or databases to run: GitHub Actions is the scheduler, the git
 repository is the data store, and the dashboard is a static page over that
@@ -41,6 +44,10 @@ data.
    at 09:23 UTC; you can also trigger it manually from the Actions tab via
    *Run workflow*.
 
+4. **Optional — turn on notifications.** See
+   [Notifications](#notifications) to get a daily or weekly digest of how
+   prices compare with their recent average.
+
 ## Running locally
 
 ```bash
@@ -48,6 +55,8 @@ pip install -r requirements.txt
 python -m price_tracker run              # fetch the list and record today's prices
 python -m price_tracker history          # print the stored history for each item
 python -m price_tracker dashboard        # open the price-history line graphs
+python -m price_tracker report           # print the price-change digest
+python -m price_tracker notify           # email/webhook the digest if one is due
 ```
 
 Running `run` twice on the same day replaces that day's rows rather than
@@ -72,6 +81,95 @@ To publish the same view on GitHub Pages, set **Settings → Pages → Source** 
 **GitHub Actions**. The `Deploy dashboard` workflow builds a static site on
 each push to `main` that changes dashboard files or price data.
 
+## Notifications
+
+Get a digest of how each item's price is doing right now compared with its
+recent average — by email, by webhook (Slack, Discord, ntfy, anything that
+takes a JSON POST), or both.
+
+Each item in the digest shows:
+
+- **current price** vs. its **average over the trailing window** (the past week
+  or the past month), as an absolute change and a percentage
+- the **cheapest and priciest** it was inside that window
+- an **all-time low** badge when today's price matches the lowest ever recorded
+- **availability changes** — back in stock, or newly unavailable
+- a **list total**: what the whole list costs now vs. what it averaged
+
+Items are sorted biggest drop first, and the subject line summarises the run
+("Weekly Amazon list report — 3 price drops, 1 increase, 2 all-time lows").
+
+### Configure
+
+Everything lives under `notifications:` in `config.yaml`:
+
+```yaml
+notifications:
+  enabled: true
+  frequency: weekly        # daily | weekly
+  day_of_week: monday      # which day weekly digests go out
+  baseline: week           # week (7d) | month (30d) | a number of days
+  min_change_percent: 1.0  # ignore moves smaller than this
+  email:
+    enabled: true
+    to:
+      - you@example.com
+    from: Amazon Price Tracker <you@example.com>
+    smtp_host: smtp.gmail.com
+    smtp_port: 587
+    security: starttls     # starttls | ssl | none
+    username: ${SMTP_USERNAME}
+    password: ${SMTP_PASSWORD}
+  webhook:
+    enabled: true
+    url: ${PRICE_TRACKER_WEBHOOK_URL}
+```
+
+`frequency` decides how often you hear from the tracker; `baseline` decides
+what "average" the current price is measured against. They are independent —
+a daily email compared against the past month is a perfectly good setup.
+
+### Secrets
+
+Any `${VAR}` in the `notifications` block is read from the environment, so no
+credential is ever committed. Add them under **Settings → Secrets and
+variables → Actions**:
+
+| secret | used for |
+|--------|----------|
+| `SMTP_USERNAME` | SMTP login |
+| `SMTP_PASSWORD` | SMTP password — for Gmail, an [app password](https://support.google.com/accounts/answer/185833), not your account password |
+| `PRICE_TRACKER_WEBHOOK_URL` | webhook endpoint |
+
+A channel that is `enabled: true` but whose `${VAR}` is unset counts as not
+configured: it is skipped rather than failing the run.
+
+### Scheduling
+
+The daily `Track prices` workflow calls `python -m price_tracker notify` right
+after recording prices. That command is a no-op unless today is a send day, so
+a weekly digest still goes out from a daily workflow. The last send is recorded
+in `data/notification_state.json` and committed, so re-running the workflow on
+the same day does not send twice.
+
+To send one on demand — handy for checking secrets — run the **Send price
+report** workflow from the Actions tab. It defaults to a dry run that prints
+the digest into the job log without emailing anyone.
+
+### Trying it locally
+
+```bash
+python -m price_tracker report                     # print the digest
+python -m price_tracker report --baseline month    # compare against 30 days
+python -m price_tracker report --format html > preview.html
+python -m price_tracker notify --dry-run --force   # build and print, send nothing
+python -m price_tracker notify --force             # send it now
+```
+
+Webhook payloads carry `text` (Slack-style), `content` (Discord-style), and a
+full `report` object with every number in the digest, so a custom consumer can
+format its own message.
+
 ## Data format
 
 `data/price_history.csv` has one row per item per day:
@@ -90,6 +188,7 @@ each push to `main` that changes dashboard files or price data.
 `data/items.json` holds the latest snapshot of the list (titles, URLs, and
 current prices) for convenience. `data/dashboard.json` is a derived, chart-ready
 view of that same history; the dashboard reads it, and each `run` rewrites it.
+`data/notification_state.json` records when the last digest went out.
 
 ## Retention
 
@@ -110,8 +209,7 @@ the line) to keep everything forever.
 
 ## Roadmap
 
-- Notifications (email / push) when an item drops below a threshold or goes
-  on sale
+- Per-item price alerts ("tell me the moment this drops below $40")
 
 ## Development
 

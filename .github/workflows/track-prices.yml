@@ -31,6 +31,18 @@ jobs:
       - name: Record today's prices
         run: python -m price_tracker run
 
+      # Runs on every daily run; the tracker itself decides whether today is a
+      # send day (daily, or the weekday configured in config.yaml) and stays
+      # quiet otherwise. A delivery failure must not lose the day's prices, so
+      # this step never fails the job.
+      - name: Send price-change notifications
+        continue-on-error: true
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          PRICE_TRACKER_WEBHOOK_URL: ${{ secrets.PRICE_TRACKER_WEBHOOK_URL }}
+        run: python -m price_tracker notify
+
       - name: Commit updated price history
         run: |
           git config user.name "github-actions[bot]"

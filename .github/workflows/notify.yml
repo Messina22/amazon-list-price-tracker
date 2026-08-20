@@ -1,0 +1,61 @@
+# Send a price-change digest on demand, without waiting for the daily run.
+# Useful for checking your SMTP / webhook secrets right after setting them up.
+name: Send price report
+
+on:
+  workflow_dispatch:
+    inputs:
+      baseline:
+        description: "Comparison window: week, month, or a number of days"
+        type: string
+        default: week
+      dry_run:
+        description: "Build the report and print it instead of sending it"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: send-price-report
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # --force skips the schedule check: a manual run means you want it now.
+      - name: Send price report
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          PRICE_TRACKER_WEBHOOK_URL: ${{ secrets.PRICE_TRACKER_WEBHOOK_URL }}
+        run: |
+          python -m price_tracker notify \
+            --force \
+            --baseline "${{ inputs.baseline }}" \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit notification state
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Record notification send for $(date -u +%F)"
+            git push
+          fi
