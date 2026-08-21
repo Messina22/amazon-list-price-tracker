@@ -77,9 +77,17 @@ Search, sort, and range controls filter the same history. With only one day
 recorded, you get a single point; the line fills in as the daily workflow
 appends more rows.
 
-To publish the same view on GitHub Pages, set **Settings → Pages → Source** to
-**GitHub Actions**. The `Deploy dashboard` workflow builds a static site on
-each push to `main` that changes dashboard files or price data.
+To publish the same view on GitHub Pages:
+
+1. Open **Settings → Pages**.
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+   (A workflow token cannot turn Pages on by itself; this is a one-time
+   repository setting.)
+3. Re-run the `Deploy dashboard` workflow, or push a change to dashboard
+   files / price data on `main`.
+
+Until Pages is enabled, that workflow still builds the site and exits
+successfully — it just skips publishing and leaves a warning on the run.
 
 ## Notifications
 
@@ -201,9 +209,12 @@ the line) to keep everything forever.
 - The list must be **public** — the tracker fetches the share page without
   logging in.
 - Amazon has no official wishlist API, so this parses the public page's HTML.
-  Amazon occasionally changes its markup or serves CAPTCHAs to automated
-  clients; a failed run simply records nothing that day and the next run
-  carries on. If runs fail repeatedly, check the Actions logs.
+  GitHub-hosted runners are often served a CAPTCHA when the client looks like
+  `python-requests`; the tracker impersonates a Chrome TLS fingerprint and
+  retries a few times on CAPTCHA / 429 / 503. If a run still cannot fetch the
+  list, it fails that day and the next scheduled run tries again. Check the
+  Actions logs if that happens repeatedly. Amazon also changes its markup
+  from time to time.
 - Prices are whatever the list page displays (typically the default offer),
   which can differ from the price you'd see logged in with deals or coupons.
 
