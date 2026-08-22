@@ -1,10 +1,52 @@
 {
-  "generatedAt": "2026-08-18T17:22:36Z",
+  "generatedAt": "2026-08-22T09:47:07Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-08-18",
-  "itemCount": 34,
-  "availableCount": 33,
+  "lastDate": "2026-08-22",
+  "itemCount": 36,
+  "availableCount": 35,
   "items": [
+    {
+      "key": "B0H6B2D9G6",
+      "asin": "B0H6B2D9G6",
+      "title": "8Bitdo FlipPad Mobile Gaming Controller for iPhone and Android | Flip-Style, USB-C Plug and Play, Vertical Mobile Gaming, Pocket-Ready and Case-Friendly, Tactile D-pad and ABXY controls",
+      "url": "https://www.amazon.com/dp/B0H6B2D9G6/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 29.99,
+      "firstPrice": 29.99,
+      "minPrice": 29.99,
+      "maxPrice": 29.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-22",
+          "price": 29.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B09DDC7KMQ",
+      "asin": "B09DDC7KMQ",
+      "title": "Normcore 58.5mm Puck Screen - Lower Shower Screen - Metal Coffee Reusable Filter for Espresso Portafilter Filter Basket 58mm - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
+      "url": "https://www.amazon.com/dp/B09DDC7KMQ/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 13.99,
+      "firstPrice": 13.99,
+      "minPrice": 13.99,
+      "maxPrice": 13.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-22",
+          "price": 13.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0FQMJGS4T",
       "asin": "B0FQMJGS4T",
@@ -16,11 +58,16 @@
       "firstPrice": 39.95,
       "minPrice": 39.95,
       "maxPrice": 39.95,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 39.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 39.95,
           "available": true
         }
@@ -29,7 +76,7 @@
     {
       "key": "B0BF7DXLBF",
       "asin": "B0BF7DXLBF",
-      "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Matte Black",
+      "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
       "url": "https://www.amazon.com/dp/B0BF7DXLBF/",
       "currency": "USD",
       "available": true,
@@ -37,75 +84,17 @@
       "firstPrice": 179.95,
       "minPrice": 179.95,
       "maxPrice": 179.95,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
           "price": 179.95,
           "available": true
-        }
-      ]
-    },
-    {
-      "key": "B01IABPSNY",
-      "asin": "B01IABPSNY",
-      "title": "Gaggia Decalcifier Descaler Solution 250ml (2 Bottles)",
-      "url": "https://www.amazon.com/dp/B01IABPSNY/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 14.59,
-      "firstPrice": 14.59,
-      "minPrice": 14.59,
-      "maxPrice": 14.59,
-      "change": null,
-      "changePct": null,
-      "history": [
+        },
         {
-          "date": "2026-08-18",
-          "price": 14.59,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B081JKZ5H9",
-      "asin": "B081JKZ5H9",
-      "title": "watchget Coffee Machine Cleaning Brush Set, 1 Brush + 58mm Backflush Insert | 1Pc Coffee Machine Brush with Spoon & 1 Pc 58mm Stainless Steel Backflush Insert, Metal Blind Filter for Espresso Machine",
-      "url": "https://www.amazon.com/dp/B081JKZ5H9/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 8.99,
-      "firstPrice": 8.99,
-      "minPrice": 8.99,
-      "maxPrice": 8.99,
-      "change": null,
-      "changePct": null,
-      "history": [
-        {
-          "date": "2026-08-18",
-          "price": 8.99,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B001418KNS",
-      "asin": "B001418KNS",
-      "title": "Urnex Espresso Machine Cleaning Powder - 566 grams - Cafiza Professional Espresso Machine Cleaner",
-      "url": "https://www.amazon.com/dp/B001418KNS/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 19.99,
-      "firstPrice": 19.99,
-      "minPrice": 19.99,
-      "maxPrice": 19.99,
-      "change": null,
-      "changePct": null,
-      "history": [
-        {
-          "date": "2026-08-18",
-          "price": 19.99,
+          "date": "2026-08-22",
+          "price": 179.95,
           "available": true
         }
       ]
@@ -121,33 +110,17 @@
       "firstPrice": 22.48,
       "minPrice": 22.48,
       "maxPrice": 22.48,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
           "price": 22.48,
           "available": true
-        }
-      ]
-    },
-    {
-      "key": "B07WMQP4SF",
-      "asin": "B07WMQP4SF",
-      "title": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels, Quick Drying Dish Rags with Hanging Loop",
-      "url": "https://www.amazon.com/dp/B07WMQP4SF/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 8.98,
-      "firstPrice": 8.98,
-      "minPrice": 8.98,
-      "maxPrice": 8.98,
-      "change": null,
-      "changePct": null,
-      "history": [
+        },
         {
-          "date": "2026-08-18",
-          "price": 8.98,
+          "date": "2026-08-22",
+          "price": 22.48,
           "available": true
         }
       ]
@@ -163,11 +136,16 @@
       "firstPrice": 132.53,
       "minPrice": 132.53,
       "maxPrice": 132.53,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 132.53,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 132.53,
           "available": true
         }
@@ -184,11 +162,16 @@
       "firstPrice": 159.0,
       "minPrice": 159.0,
       "maxPrice": 159.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 159.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 159.0,
           "available": true
         }
@@ -201,16 +184,21 @@
       "url": "https://www.amazon.com/dp/B0GTB3BMYQ/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 318.5,
+      "currentPrice": 288.51,
       "firstPrice": 318.5,
-      "minPrice": 318.5,
+      "minPrice": 288.51,
       "maxPrice": 318.5,
-      "change": null,
-      "changePct": null,
+      "change": -29.99,
+      "changePct": -9.42,
       "history": [
         {
           "date": "2026-08-18",
           "price": 318.5,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 288.51,
           "available": true
         }
       ]
@@ -226,11 +214,16 @@
       "firstPrice": 9.99,
       "minPrice": 9.99,
       "maxPrice": 9.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 9.99,
           "available": true
         }
@@ -247,11 +240,16 @@
       "firstPrice": 150.0,
       "minPrice": 150.0,
       "maxPrice": 150.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 150.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 150.0,
           "available": true
         }
@@ -268,11 +266,16 @@
       "firstPrice": 19.95,
       "minPrice": 19.95,
       "maxPrice": 19.95,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 19.95,
           "available": true
         }
@@ -285,16 +288,21 @@
       "url": "https://www.amazon.com/dp/B0DVZBR9TJ/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 259.18,
+      "currentPrice": 249.12,
       "firstPrice": 259.18,
-      "minPrice": 259.18,
+      "minPrice": 249.12,
       "maxPrice": 259.18,
-      "change": null,
-      "changePct": null,
+      "change": -10.06,
+      "changePct": -3.88,
       "history": [
         {
           "date": "2026-08-18",
           "price": 259.18,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 249.12,
           "available": true
         }
       ]
@@ -310,11 +318,16 @@
       "firstPrice": 619.98,
       "minPrice": 619.98,
       "maxPrice": 619.98,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 619.98,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 619.98,
           "available": true
         }
@@ -331,11 +344,16 @@
       "firstPrice": 144.99,
       "minPrice": 144.99,
       "maxPrice": 144.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 144.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 144.99,
           "available": true
         }
@@ -348,16 +366,21 @@
       "url": "https://www.amazon.com/dp/B0CXDTP94L/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 23.99,
+      "currentPrice": 21.59,
       "firstPrice": 23.99,
-      "minPrice": 23.99,
+      "minPrice": 21.59,
       "maxPrice": 23.99,
-      "change": null,
-      "changePct": null,
+      "change": -2.4,
+      "changePct": -10.0,
       "history": [
         {
           "date": "2026-08-18",
           "price": 23.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 21.59,
           "available": true
         }
       ]
@@ -369,16 +392,21 @@
       "url": "https://www.amazon.com/dp/B0DWT9J5L3/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 26.95,
+      "currentPrice": 26.99,
       "firstPrice": 26.95,
       "minPrice": 26.95,
-      "maxPrice": 26.95,
-      "change": null,
-      "changePct": null,
+      "maxPrice": 26.99,
+      "change": 0.04,
+      "changePct": 0.15,
       "history": [
         {
           "date": "2026-08-18",
           "price": 26.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 26.99,
           "available": true
         }
       ]
@@ -386,20 +414,25 @@
     {
       "key": "B093H8RGXX",
       "asin": "B093H8RGXX",
-      "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying",
+      "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
       "url": "https://www.amazon.com/dp/B093H8RGXX/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 37.73,
+      "currentPrice": 37.84,
       "firstPrice": 37.73,
       "minPrice": 37.73,
-      "maxPrice": 37.73,
-      "change": null,
-      "changePct": null,
+      "maxPrice": 37.84,
+      "change": 0.11,
+      "changePct": 0.29,
       "history": [
         {
           "date": "2026-08-18",
           "price": 37.73,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 37.84,
           "available": true
         }
       ]
@@ -407,7 +440,7 @@
     {
       "key": "B00NX627HW",
       "asin": "B00NX627HW",
-      "title": "Carcassonne Tile Placement Strategy Board Game, 2-5 Players, 35 Min",
+      "title": "Carcassonne Tile Placement Strategy Board Game, 2-5 Players, 35 Min | For tile fans, build a medieval landscape, Meeple placement adds strategy each turn, Randomized tiles keep games different",
       "url": "https://www.amazon.com/dp/B00NX627HW/",
       "currency": "USD",
       "available": true,
@@ -415,11 +448,16 @@
       "firstPrice": 31.99,
       "minPrice": 31.99,
       "maxPrice": 31.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 31.99,
           "available": true
         }
@@ -436,11 +474,16 @@
       "firstPrice": 144.99,
       "minPrice": 144.99,
       "maxPrice": 144.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 144.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 144.99,
           "available": true
         }
@@ -449,7 +492,7 @@
     {
       "key": "B0FQFB8FMG",
       "asin": "B0FQFB8FMG",
-      "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, High-Fidelity Sound, USB-C Charging",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
       "url": "https://www.amazon.com/dp/B0FQFB8FMG/",
       "currency": "USD",
       "available": true,
@@ -457,11 +500,16 @@
       "firstPrice": 189.99,
       "minPrice": 189.99,
       "maxPrice": 189.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 189.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 189.99,
           "available": true
         }
@@ -478,11 +526,16 @@
       "firstPrice": 44.0,
       "minPrice": 44.0,
       "maxPrice": 44.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 44.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 44.0,
           "available": true
         }
@@ -499,11 +552,16 @@
       "firstPrice": 160.0,
       "minPrice": 160.0,
       "maxPrice": 160.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 160.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 160.0,
           "available": true
         }
@@ -520,11 +578,16 @@
       "firstPrice": 479.0,
       "minPrice": 479.0,
       "maxPrice": 479.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 479.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 479.0,
           "available": true
         }
@@ -541,11 +604,16 @@
       "firstPrice": 29.99,
       "minPrice": 29.99,
       "maxPrice": 29.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 29.99,
           "available": true
         }
@@ -562,11 +630,16 @@
       "firstPrice": 16.15,
       "minPrice": 16.15,
       "maxPrice": 16.15,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 16.15,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 16.15,
           "available": true
         }
@@ -579,16 +652,21 @@
       "url": "https://www.amazon.com/dp/B076QDH9MY/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 22.24,
+      "currentPrice": 18.85,
       "firstPrice": 22.24,
-      "minPrice": 22.24,
+      "minPrice": 18.85,
       "maxPrice": 22.24,
-      "change": null,
-      "changePct": null,
+      "change": -3.39,
+      "changePct": -15.24,
       "history": [
         {
           "date": "2026-08-18",
           "price": 22.24,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 18.85,
           "available": true
         }
       ]
@@ -604,11 +682,16 @@
       "firstPrice": 40.0,
       "minPrice": 40.0,
       "maxPrice": 40.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 40.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 40.0,
           "available": true
         }
@@ -625,11 +708,16 @@
       "firstPrice": 50.0,
       "minPrice": 50.0,
       "maxPrice": 50.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 50.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 50.0,
           "available": true
         }
@@ -646,11 +734,16 @@
       "firstPrice": 25.99,
       "minPrice": 25.99,
       "maxPrice": 25.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 25.99,
           "available": true
         }
@@ -667,11 +760,16 @@
       "firstPrice": 479.0,
       "minPrice": 479.0,
       "maxPrice": 479.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
+          "price": 479.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
           "price": 479.0,
           "available": true
         }
@@ -695,6 +793,11 @@
           "date": "2026-08-18",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-08-22",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -709,12 +812,101 @@
       "firstPrice": 59.99,
       "minPrice": 59.99,
       "maxPrice": 59.99,
+      "change": 0.0,
+      "changePct": 0.0,
+      "history": [
+        {
+          "date": "2026-08-18",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 59.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B001418KNS",
+      "asin": "B001418KNS",
+      "title": "Urnex Espresso Machine Cleaning Powder - 566 grams - Cafiza Professional Espresso Machine Cleaner",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 19.99,
+      "firstPrice": 19.99,
+      "minPrice": 19.99,
+      "maxPrice": 19.99,
       "change": null,
       "changePct": null,
       "history": [
         {
           "date": "2026-08-18",
-          "price": 59.99,
+          "price": 19.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B01IABPSNY",
+      "asin": "B01IABPSNY",
+      "title": "Gaggia Decalcifier Descaler Solution 250ml (2 Bottles)",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 14.59,
+      "firstPrice": 14.59,
+      "minPrice": 14.59,
+      "maxPrice": 14.59,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-18",
+          "price": 14.59,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B07WMQP4SF",
+      "asin": "B07WMQP4SF",
+      "title": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels, Quick Drying Dish Rags with Hanging Loop",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 8.98,
+      "firstPrice": 8.98,
+      "minPrice": 8.98,
+      "maxPrice": 8.98,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-18",
+          "price": 8.98,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B081JKZ5H9",
+      "asin": "B081JKZ5H9",
+      "title": "watchget Coffee Machine Cleaning Brush Set, 1 Brush + 58mm Backflush Insert | 1Pc Coffee Machine Brush with Spoon & 1 Pc 58mm Stainless Steel Backflush Insert, Metal Blind Filter for Espresso Machine",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 8.99,
+      "firstPrice": 8.99,
+      "minPrice": 8.99,
+      "maxPrice": 8.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-18",
+          "price": 8.99,
           "available": true
         }
       ]

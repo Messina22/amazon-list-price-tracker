@@ -1,5 +1,25 @@
 [
   {
+    "key": "B0H6B2D9G6",
+    "asin": "B0H6B2D9G6",
+    "item_id": "I3CMIU8LX4AAL4",
+    "title": "8Bitdo FlipPad Mobile Gaming Controller for iPhone and Android | Flip-Style, USB-C Plug and Play, Vertical Mobile Gaming, Pocket-Ready and Case-Friendly, Tactile D-pad and ABXY controls",
+    "price": 29.99,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0H6B2D9G6/"
+  },
+  {
+    "key": "B09DDC7KMQ",
+    "asin": "B09DDC7KMQ",
+    "item_id": "I225W0IRZJL69Z",
+    "title": "Normcore 58.5mm Puck Screen - Lower Shower Screen - Metal Coffee Reusable Filter for Espresso Portafilter Filter Basket 58mm - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
+    "price": 13.99,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B09DDC7KMQ/"
+  },
+  {
     "key": "B0FQMJGS4T",
     "asin": "B0FQMJGS4T",
     "item_id": "IV0UBMM295PGT",
@@ -13,41 +33,11 @@
     "key": "B0BF7DXLBF",
     "asin": "B0BF7DXLBF",
     "item_id": "IU77YZXOZZXDF",
-    "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Matte Black",
+    "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
     "price": 179.95,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0BF7DXLBF/"
-  },
-  {
-    "key": "B01IABPSNY",
-    "asin": "B01IABPSNY",
-    "item_id": "I195N4YEVSUMSY",
-    "title": "Gaggia Decalcifier Descaler Solution 250ml (2 Bottles)",
-    "price": 14.59,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B01IABPSNY/"
-  },
-  {
-    "key": "B081JKZ5H9",
-    "asin": "B081JKZ5H9",
-    "item_id": "I2E6D01I4EUXHN",
-    "title": "watchget Coffee Machine Cleaning Brush Set, 1 Brush + 58mm Backflush Insert | 1Pc Coffee Machine Brush with Spoon & 1 Pc 58mm Stainless Steel Backflush Insert, Metal Blind Filter for Espresso Machine",
-    "price": 8.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B081JKZ5H9/"
-  },
-  {
-    "key": "B001418KNS",
-    "asin": "B001418KNS",
-    "item_id": "I16KSENF3QNH7U",
-    "title": "Urnex Espresso Machine Cleaning Powder - 566 grams - Cafiza Professional Espresso Machine Cleaner",
-    "price": 19.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B001418KNS/"
   },
   {
     "key": "B01LP0U5X0",
@@ -58,16 +48,6 @@
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B01LP0U5X0/"
-  },
-  {
-    "key": "B07WMQP4SF",
-    "asin": "B07WMQP4SF",
-    "item_id": "I1PE7Z66TXXHPS",
-    "title": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels, Quick Drying Dish Rags with Hanging Loop",
-    "price": 8.98,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B07WMQP4SF/"
   },
   {
     "key": "B07GNDDNMW",
@@ -94,7 +74,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 318.5,
+    "price": 288.51,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -134,7 +114,7 @@
     "asin": "B0DVZBR9TJ",
     "item_id": "I1Q4XIXONYIP0F",
     "title": "BuzzTV P6 PowerStation Media Hub with 8GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
-    "price": 259.18,
+    "price": 249.12,
     "currency": null,
     "available": true,
     "url": "https://www.amazon.com/dp/B0DVZBR9TJ/"
@@ -164,7 +144,7 @@
     "asin": "B0CXDTP94L",
     "item_id": "I1H5MQZOP9CES3",
     "title": "68oz 304 Stainless Steel Deep Fryer Pot with Basket & Strainer, Large Capacity Bacon Grease Container for Kitchen,Frying, Cooking, Camping,Oil Filter Container - Dishwasher Safe (68oz/2L/2.1Qt)",
-    "price": 23.99,
+    "price": 21.59,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0CXDTP94L/"
@@ -174,7 +154,7 @@
     "asin": "B0DWT9J5L3",
     "item_id": "IU0Z3O3TRLWKG",
     "title": "Toy Battle Board Game | Tactical Tile Placement and Troop Strategy Game with 8 Unique Terrains, Fun for Kids & Adults, Ages 8+, 2 Players, 15 Mins",
-    "price": 26.95,
+    "price": 26.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0DWT9J5L3/"
@@ -183,8 +163,8 @@
     "key": "B093H8RGXX",
     "asin": "B093H8RGXX",
     "item_id": "I1TLY12MG73F4K",
-    "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying",
-    "price": 37.73,
+    "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
+    "price": 37.84,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B093H8RGXX/"
@@ -193,7 +173,7 @@
     "key": "B00NX627HW",
     "asin": "B00NX627HW",
     "item_id": "I39GQ1MYSMXZUB",
-    "title": "Carcassonne Tile Placement Strategy Board Game, 2-5 Players, 35 Min",
+    "title": "Carcassonne Tile Placement Strategy Board Game, 2-5 Players, 35 Min | For tile fans, build a medieval landscape, Meeple placement adds strategy each turn, Randomized tiles keep games different",
     "price": 31.99,
     "currency": "USD",
     "available": true,
@@ -213,7 +193,7 @@
     "key": "B0FQFB8FMG",
     "asin": "B0FQFB8FMG",
     "item_id": "I22142G5IOO2ZR",
-    "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, High-Fidelity Sound, USB-C Charging",
+    "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
     "price": 189.99,
     "currency": "USD",
     "available": true,
@@ -274,7 +254,7 @@
     "asin": "B076QDH9MY",
     "item_id": "IE2DRY6MIIVNN",
     "title": "Z-MAN Evergreen Jack Hammer Chatterbait 3/8 Oz",
-    "price": 22.24,
+    "price": 18.85,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B076QDH9MY/"
