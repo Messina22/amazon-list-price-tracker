@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-08-22T09:47:07Z",
+  "generatedAt": "2026-08-24T10:08:08Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-08-22",
-  "itemCount": 36,
+  "lastDate": "2026-08-24",
+  "itemCount": 37,
   "availableCount": 35,
   "items": [
+    {
+      "key": "B09GKTHBPH",
+      "asin": "B09GKTHBPH",
+      "title": "Sorbus Soda Can Organizer for Fridge & Freezer, Stackable with Lid (2 Pack) | Clear dispenser holds 12 cans for refrigerator and pantry organization; secure lids and BPA-free construction.",
+      "url": "https://www.amazon.com/dp/B09GKTHBPH/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 29.99,
+      "firstPrice": 29.99,
+      "minPrice": 29.99,
+      "maxPrice": 29.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-08-24",
+          "price": 29.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0H6B2D9G6",
       "asin": "B0H6B2D9G6",
@@ -16,11 +37,16 @@
       "firstPrice": 29.99,
       "minPrice": 29.99,
       "maxPrice": 29.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-22",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 29.99,
           "available": true
         }
@@ -37,11 +63,16 @@
       "firstPrice": 13.99,
       "minPrice": 13.99,
       "maxPrice": 13.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-22",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 13.99,
           "available": true
         }
@@ -70,6 +101,11 @@
           "date": "2026-08-22",
           "price": 39.95,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 39.95,
+          "available": true
         }
       ]
     },
@@ -94,6 +130,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 179.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 179.95,
           "available": true
         }
@@ -122,6 +163,11 @@
           "date": "2026-08-22",
           "price": 22.48,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 22.48,
+          "available": true
         }
       ]
     },
@@ -146,6 +192,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 132.53,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 132.53,
           "available": true
         }
@@ -174,6 +225,11 @@
           "date": "2026-08-22",
           "price": 159.0,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 159.0,
+          "available": true
         }
       ]
     },
@@ -184,12 +240,12 @@
       "url": "https://www.amazon.com/dp/B0GTB3BMYQ/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 288.51,
+      "currentPrice": 294.99,
       "firstPrice": 318.5,
       "minPrice": 288.51,
       "maxPrice": 318.5,
-      "change": -29.99,
-      "changePct": -9.42,
+      "change": -23.51,
+      "changePct": -7.38,
       "history": [
         {
           "date": "2026-08-18",
@@ -199,6 +255,11 @@
         {
           "date": "2026-08-22",
           "price": 288.51,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 294.99,
           "available": true
         }
       ]
@@ -224,6 +285,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 9.99,
           "available": true
         }
@@ -252,6 +318,11 @@
           "date": "2026-08-22",
           "price": 150.0,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 150.0,
+          "available": true
         }
       ]
     },
@@ -278,6 +349,11 @@
           "date": "2026-08-22",
           "price": 19.95,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 19.95,
+          "available": true
         }
       ]
     },
@@ -287,7 +363,7 @@
       "title": "BuzzTV P6 PowerStation Media Hub with 8GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
       "url": "https://www.amazon.com/dp/B0DVZBR9TJ/",
       "currency": "USD",
-      "available": true,
+      "available": false,
       "currentPrice": 249.12,
       "firstPrice": 259.18,
       "minPrice": 249.12,
@@ -304,6 +380,11 @@
           "date": "2026-08-22",
           "price": 249.12,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -328,6 +409,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 619.98,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 619.98,
           "available": true
         }
@@ -356,6 +442,11 @@
           "date": "2026-08-22",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -380,6 +471,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 21.59,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 21.59,
           "available": true
         }
@@ -408,6 +504,11 @@
           "date": "2026-08-22",
           "price": 26.99,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 26.99,
+          "available": true
         }
       ]
     },
@@ -418,12 +519,12 @@
       "url": "https://www.amazon.com/dp/B093H8RGXX/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 37.84,
+      "currentPrice": 37.74,
       "firstPrice": 37.73,
       "minPrice": 37.73,
       "maxPrice": 37.84,
-      "change": 0.11,
-      "changePct": 0.29,
+      "change": 0.01,
+      "changePct": 0.03,
       "history": [
         {
           "date": "2026-08-18",
@@ -433,6 +534,11 @@
         {
           "date": "2026-08-22",
           "price": 37.84,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 37.74,
           "available": true
         }
       ]
@@ -458,6 +564,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 31.99,
           "available": true
         }
@@ -486,6 +597,11 @@
           "date": "2026-08-22",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -510,6 +626,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 189.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 189.99,
           "available": true
         }
@@ -538,6 +659,11 @@
           "date": "2026-08-22",
           "price": 44.0,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 44.0,
+          "available": true
         }
       ]
     },
@@ -562,6 +688,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 160.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 160.0,
           "available": true
         }
@@ -590,6 +721,11 @@
           "date": "2026-08-22",
           "price": 479.0,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 479.0,
+          "available": true
         }
       ]
     },
@@ -614,6 +750,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 29.99,
           "available": true
         }
@@ -642,6 +783,11 @@
           "date": "2026-08-22",
           "price": 16.15,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 16.15,
+          "available": true
         }
       ]
     },
@@ -652,12 +798,12 @@
       "url": "https://www.amazon.com/dp/B076QDH9MY/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 18.85,
+      "currentPrice": 21.62,
       "firstPrice": 22.24,
       "minPrice": 18.85,
       "maxPrice": 22.24,
-      "change": -3.39,
-      "changePct": -15.24,
+      "change": -0.62,
+      "changePct": -2.79,
       "history": [
         {
           "date": "2026-08-18",
@@ -667,6 +813,11 @@
         {
           "date": "2026-08-22",
           "price": 18.85,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 21.62,
           "available": true
         }
       ]
@@ -692,6 +843,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 40.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 40.0,
           "available": true
         }
@@ -720,6 +876,11 @@
           "date": "2026-08-22",
           "price": 50.0,
           "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 50.0,
+          "available": true
         }
       ]
     },
@@ -730,12 +891,12 @@
       "url": "https://www.amazon.com/dp/B0BCHFSRN2/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 25.99,
+      "currentPrice": 35.8,
       "firstPrice": 25.99,
       "minPrice": 25.99,
-      "maxPrice": 25.99,
-      "change": 0.0,
-      "changePct": 0.0,
+      "maxPrice": 35.8,
+      "change": 9.81,
+      "changePct": 37.75,
       "history": [
         {
           "date": "2026-08-18",
@@ -745,6 +906,11 @@
         {
           "date": "2026-08-22",
           "price": 25.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 35.8,
           "available": true
         }
       ]
@@ -770,6 +936,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 479.0,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 479.0,
           "available": true
         }
@@ -798,13 +969,18 @@
           "date": "2026-08-22",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-08-24",
+          "price": null,
+          "available": false
         }
       ]
     },
     {
       "key": "B08F65MX4L",
       "asin": "B08F65MX4L",
-      "title": "Asmodee 7 Wonders Board Game (New Edition) - Lead Your Civilization to Prosperity, Strategy Game for Kids and Adults, Ages 10+, 3-7 Players, 30 Minute Playtime | Lead your civilization through three Ages and build one of history's greatest wonders. Ages 10+, 3-7 Players, 30 Min.",
+      "title": "Asmodee 7 Wonders Board Game (New Edition) - Lead Your Civilization to Prosperity, Strategy Game for Kids and Adults, Ages 10+, 3-7 Players, 30 Minute Playtime",
       "url": "https://www.amazon.com/dp/B08F65MX4L/",
       "currency": "USD",
       "available": true,
@@ -822,6 +998,11 @@
         },
         {
           "date": "2026-08-22",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
           "price": 59.99,
           "available": true
         }
