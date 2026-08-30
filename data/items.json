@@ -1,5 +1,15 @@
 [
   {
+    "key": "B001RBTSMM",
+    "asin": "B001RBTSMM",
+    "item_id": "I3FCZD72VB4QBT",
+    "title": "HARIO V60 Plastic Coffee Dripper, Size 02, Clear | Plastic",
+    "price": 11.54,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B001RBTSMM/"
+  },
+  {
     "key": "B09GKTHBPH",
     "asin": "B09GKTHBPH",
     "item_id": "I3H126LX6CX1OU",
@@ -50,16 +60,6 @@
     "url": "https://www.amazon.com/dp/B0BF7DXLBF/"
   },
   {
-    "key": "B01LP0U5X0",
-    "asin": "B01LP0U5X0",
-    "item_id": "IC4SNMHJX2KW",
-    "title": "Amazon Basics Extra Thick Exercise Yoga Mat with Carrying Strap",
-    "price": 20.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B01LP0U5X0/"
-  },
-  {
     "key": "B07GNDDNMW",
     "asin": "B07GNDDNMW",
     "item_id": "I3NSX8I0OF132Q",
@@ -84,7 +84,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 327.92,
+    "price": 314.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -174,7 +174,7 @@
     "asin": "B093H8RGXX",
     "item_id": "I1TLY12MG73F4K",
     "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
-    "price": 37.64,
+    "price": 37.6,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B093H8RGXX/"
@@ -184,7 +184,7 @@
     "asin": "B00NX627HW",
     "item_id": "I39GQ1MYSMXZUB",
     "title": "Carcassonne Tile Placement Strategy Board Game, 2-5 Players, 35 Min | For tile fans, build a medieval landscape, Meeple placement adds strategy each turn, Randomized tiles keep games different",
-    "price": 31.99,
+    "price": 32.88,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B00NX627HW/"
@@ -234,7 +234,7 @@
     "asin": "B095QX1FSR",
     "item_id": "I1BNX13CZDTLV3",
     "title": "Garmin Approach R10, Portable Golf Launch Monitor, Take Your Game Home, Indoors or to The Driving Range, Up to 10 Hours Battery Life - 010-02356-00",
-    "price": 478.76,
+    "price": 482.66,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B095QX1FSR/"
