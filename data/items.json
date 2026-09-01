@@ -1,5 +1,15 @@
 [
   {
+    "key": "B09BTLP4P1",
+    "asin": "B09BTLP4P1",
+    "item_id": "I3496FGAMW5MFT",
+    "title": "Normcore 58.5mm Coffee Tamper V4 - Spring-Loaded Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Stainless Steel Flat Base,Black",
+    "price": 42.99,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B09BTLP4P1/"
+  },
+  {
     "key": "B001RBTSMM",
     "asin": "B001RBTSMM",
     "item_id": "I3FCZD72VB4QBT",
@@ -64,7 +74,7 @@
     "asin": "B07GNDDNMW",
     "item_id": "I3NSX8I0OF132Q",
     "title": "SIHOO M18 Ergonomic Office Chair, Mesh Back Desk Chair with Headrest | Adjustable Lumbar Support, Hold 330lbs Computer Chair with 2D Armrests & Wide Cushion, Tilt Lock, for Home Office - Black",
-    "price": 132.53,
+    "price": 146.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B07GNDDNMW/"
@@ -84,7 +94,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 314.99,
+    "price": 307.5,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -114,7 +124,7 @@
     "asin": "B0FDZHJCS2",
     "item_id": "IG0ZA3XP2DQ6T",
     "title": "Thunderworks Games: FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Board Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-    "price": 19.95,
+    "price": 18.95,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
@@ -134,7 +144,7 @@
     "asin": "B0D22JRHZB",
     "item_id": "ITKJWU73M7L42",
     "title": "UGREEN DXP4800 Plus 4-Bay NAS for Families, Creators & Small Teams | 4K Home Media, File Server & Hardware Transcoding, Intel 8505, 8GB DDR5, 10GbE&2.5GbE, Built-in 128G SSD, 2xM.2 NVMe,Diskless",
-    "price": 619.98,
+    "price": 619.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0D22JRHZB/"
@@ -174,7 +184,7 @@
     "asin": "B093H8RGXX",
     "item_id": "I1TLY12MG73F4K",
     "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
-    "price": 37.6,
+    "price": 37.61,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B093H8RGXX/"
@@ -204,7 +214,7 @@
     "asin": "B0FQFB8FMG",
     "item_id": "I22142G5IOO2ZR",
     "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
-    "price": 199.99,
+    "price": 225.0,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0FQFB8FMG/"
@@ -264,7 +274,7 @@
     "asin": "B076QDH9MY",
     "item_id": "IE2DRY6MIIVNN",
     "title": "Z-MAN Evergreen Jack Hammer Chatterbait 3/8 Oz",
-    "price": 20.53,
+    "price": 20.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B076QDH9MY/"
@@ -314,9 +324,9 @@
     "asin": "B0CF9THQDK",
     "item_id": "I36P0F0DU9IBU1",
     "title": "Blue Tees Golf Player+ AI-Powered GPS Speaker - Touchscreen Display, 10+ Hour Battery, 40,000+ Courses, Visual & Audible Distances, Hazard Detection, IPX7 Waterproof (Black)",
-    "price": null,
-    "currency": null,
-    "available": false,
+    "price": 169.98,
+    "currency": "USD",
+    "available": true,
     "url": "https://www.amazon.com/dp/B0CF9THQDK/"
   },
   {
