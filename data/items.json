@@ -14,7 +14,7 @@
     "asin": "B001RBTSMM",
     "item_id": "I3FCZD72VB4QBT",
     "title": "HARIO V60 Plastic Coffee Dripper, Size 02, Clear | Plastic",
-    "price": 12.06,
+    "price": 12.24,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B001RBTSMM/"
@@ -124,7 +124,7 @@
     "asin": "B0FDZHJCS2",
     "item_id": "IG0ZA3XP2DQ6T",
     "title": "Thunderworks Games: FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Board Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-    "price": 18.95,
+    "price": 19.95,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
@@ -184,7 +184,7 @@
     "asin": "B093H8RGXX",
     "item_id": "I1TLY12MG73F4K",
     "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
-    "price": 37.61,
+    "price": 37.56,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B093H8RGXX/"
@@ -224,7 +224,7 @@
     "asin": "B0DPR9LBJC",
     "item_id": "I3MW6G9YTMMTX8",
     "title": "Votivo White Tea & Bergamot 10 oz Signature Candle | Soy Wax Blend | Luxury Glass Jar & Box | Home Decor |Gifts | Highly Scented",
-    "price": 44.0,
+    "price": 37.4,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0DPR9LBJC/"
@@ -244,7 +244,7 @@
     "asin": "B095QX1FSR",
     "item_id": "I1BNX13CZDTLV3",
     "title": "Garmin Approach R10, Portable Golf Launch Monitor, Take Your Game Home, Indoors or to The Driving Range, Up to 10 Hours Battery Life - 010-02356-00",
-    "price": 479.0,
+    "price": 489.5,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B095QX1FSR/"
@@ -304,7 +304,7 @@
     "asin": "B0BCHFSRN2",
     "item_id": "IZBMRKWY7R120",
     "title": "Advantage360 Palm Pads - Magnetic | Cushioned Foam | Washable",
-    "price": 35.8,
+    "price": 25.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0BCHFSRN2/"
@@ -324,9 +324,9 @@
     "asin": "B0CF9THQDK",
     "item_id": "I36P0F0DU9IBU1",
     "title": "Blue Tees Golf Player+ AI-Powered GPS Speaker - Touchscreen Display, 10+ Hour Battery, 40,000+ Courses, Visual & Audible Distances, Hazard Detection, IPX7 Waterproof (Black)",
-    "price": 169.98,
-    "currency": "USD",
-    "available": true,
+    "price": null,
+    "currency": null,
+    "available": false,
     "url": "https://www.amazon.com/dp/B0CF9THQDK/"
   },
   {
