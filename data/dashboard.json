@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-09-07T15:07:45Z",
+  "generatedAt": "2026-09-08T13:42:30Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-09-07",
-  "itemCount": 39,
-  "availableCount": 37,
+  "lastDate": "2026-09-08",
+  "itemCount": 40,
+  "availableCount": 38,
   "items": [
+    {
+      "key": "B0F9BX1TJX",
+      "asin": "B0F9BX1TJX",
+      "title": "EDJY Fingernail Cutter Nail Cutter Stainless Steel Black | Sharp single-blade design delivers clean, precise cuts. Ergonomic stainless steel resists rust for lasting durability.",
+      "url": "https://www.amazon.com/dp/B0F9BX1TJX/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 18.0,
+      "firstPrice": 18.0,
+      "minPrice": 18.0,
+      "maxPrice": 18.0,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-09-08",
+          "price": 18.0,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B09BTLP4P1",
       "asin": "B09BTLP4P1",
@@ -51,6 +72,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 42.99,
           "available": true
         }
@@ -107,6 +133,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 12.39,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 12.39,
           "available": true
         }
@@ -188,6 +219,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 29.99,
           "available": true
         }
@@ -276,6 +312,11 @@
           "date": "2026-09-07",
           "price": 29.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 29.99,
+          "available": true
         }
       ]
     },
@@ -360,6 +401,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 13.99,
           "available": true
         }
@@ -453,6 +499,11 @@
           "date": "2026-09-07",
           "price": 39.95,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 39.95,
+          "available": true
         }
       ]
     },
@@ -463,12 +514,12 @@
       "url": "https://www.amazon.com/dp/B0BF7DXLBF/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 152.95,
+      "currentPrice": 179.95,
       "firstPrice": 179.95,
       "minPrice": 152.95,
       "maxPrice": 179.95,
-      "change": -27.0,
-      "changePct": -15.0,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
@@ -543,6 +594,11 @@
         {
           "date": "2026-09-07",
           "price": 152.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 179.95,
           "available": true
         }
       ]
@@ -633,6 +689,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 146.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 146.99,
           "available": true
         }
@@ -726,6 +787,11 @@
           "date": "2026-09-07",
           "price": 159.0,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 159.0,
+          "available": true
         }
       ]
     },
@@ -815,6 +881,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 307.5,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 307.5,
           "available": true
         }
@@ -908,6 +979,11 @@
           "date": "2026-09-07",
           "price": 8.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 8.99,
+          "available": true
         }
       ]
     },
@@ -997,6 +1073,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 150.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 150.0,
           "available": true
         }
@@ -1090,6 +1171,11 @@
           "date": "2026-09-07",
           "price": 19.95,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 19.95,
+          "available": true
         }
       ]
     },
@@ -1179,6 +1265,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-09-08",
           "price": null,
           "available": false
         }
@@ -1272,6 +1363,11 @@
           "date": "2026-09-07",
           "price": 656.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 656.99,
+          "available": true
         }
       ]
     },
@@ -1361,6 +1457,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 144.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 144.99,
           "available": true
         }
@@ -1454,6 +1555,11 @@
           "date": "2026-09-07",
           "price": 23.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 23.99,
+          "available": true
         }
       ]
     },
@@ -1543,6 +1649,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 26.99,
           "available": true
         }
@@ -1636,6 +1747,11 @@
           "date": "2026-09-07",
           "price": 37.62,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 37.62,
+          "available": true
         }
       ]
     },
@@ -1725,6 +1841,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 32.88,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 32.88,
           "available": true
         }
@@ -1818,6 +1939,11 @@
           "date": "2026-09-07",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -1907,6 +2033,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 199.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 199.0,
           "available": true
         }
@@ -2000,6 +2131,11 @@
           "date": "2026-09-07",
           "price": 37.4,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 37.4,
+          "available": true
         }
       ]
     },
@@ -2089,6 +2225,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 160.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 160.0,
           "available": true
         }
@@ -2182,6 +2323,11 @@
           "date": "2026-09-07",
           "price": 489.5,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 489.5,
+          "available": true
         }
       ]
     },
@@ -2271,6 +2417,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 25.64,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 25.64,
           "available": true
         }
@@ -2364,6 +2515,11 @@
           "date": "2026-09-07",
           "price": 14.0,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 14.0,
+          "available": true
         }
       ]
     },
@@ -2453,6 +2609,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 20.99,
           "available": true
         }
@@ -2546,6 +2707,11 @@
           "date": "2026-09-07",
           "price": 40.0,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 40.0,
+          "available": true
         }
       ]
     },
@@ -2635,6 +2801,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 50.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 50.0,
           "available": true
         }
@@ -2728,6 +2899,11 @@
           "date": "2026-09-07",
           "price": 25.99,
           "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 25.99,
+          "available": true
         }
       ]
     },
@@ -2817,6 +2993,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 479.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 479.0,
           "available": true
         }
@@ -2910,6 +3091,11 @@
           "date": "2026-09-07",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-09-08",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -2999,6 +3185,11 @@
         },
         {
           "date": "2026-09-07",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
           "price": 59.99,
           "available": true
         }

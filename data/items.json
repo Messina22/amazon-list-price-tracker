@@ -1,5 +1,15 @@
 [
   {
+    "key": "B0F9BX1TJX",
+    "asin": "B0F9BX1TJX",
+    "item_id": "ITM53JLN4RDG5",
+    "title": "EDJY Fingernail Cutter Nail Cutter Stainless Steel Black | Sharp single-blade design delivers clean, precise cuts. Ergonomic stainless steel resists rust for lasting durability.",
+    "price": 18.0,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0F9BX1TJX/"
+  },
+  {
     "key": "B09BTLP4P1",
     "asin": "B09BTLP4P1",
     "item_id": "I3496FGAMW5MFT",
@@ -64,8 +74,8 @@
     "asin": "B0BF7DXLBF",
     "item_id": "IU77YZXOZZXDF",
     "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
-    "price": 152.95,
-    "currency": "USD",
+    "price": 179.95,
+    "currency": null,
     "available": true,
     "url": "https://www.amazon.com/dp/B0BF7DXLBF/"
   },
