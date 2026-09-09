@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-08T13:42:30Z",
+  "generatedAt": "2026-09-09T13:47:27Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-09-08",
+  "lastDate": "2026-09-09",
   "itemCount": 40,
-  "availableCount": 38,
+  "availableCount": 39,
   "items": [
     {
       "key": "B0F9BX1TJX",
@@ -16,11 +16,16 @@
       "firstPrice": 18.0,
       "minPrice": 18.0,
       "maxPrice": 18.0,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-09-08",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 18.0,
           "available": true
         }
@@ -77,6 +82,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 42.99,
           "available": true
         }
@@ -138,6 +148,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 12.39,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 12.39,
           "available": true
         }
@@ -224,6 +239,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 29.99,
           "available": true
         }
@@ -317,6 +337,11 @@
           "date": "2026-09-08",
           "price": 29.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 29.99,
+          "available": true
         }
       ]
     },
@@ -406,6 +431,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 13.99,
           "available": true
         }
@@ -504,13 +534,18 @@
           "date": "2026-09-08",
           "price": 39.95,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 39.95,
+          "available": true
         }
       ]
     },
     {
       "key": "B0BF7DXLBF",
       "asin": "B0BF7DXLBF",
-      "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | To-the-Degree Temp Control, Color LCD, Temp Hold, Stainless Steel, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
+      "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | Temperature Control, Color LCD, Temp Hold, Stainless Steel Tea Kettle, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
       "url": "https://www.amazon.com/dp/B0BF7DXLBF/",
       "currency": "USD",
       "available": true,
@@ -598,6 +633,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 179.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 179.95,
           "available": true
         }
@@ -696,6 +736,11 @@
           "date": "2026-09-08",
           "price": 146.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 146.99,
+          "available": true
         }
       ]
     },
@@ -790,6 +835,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 159.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 159.0,
           "available": true
         }
@@ -888,6 +938,11 @@
           "date": "2026-09-08",
           "price": 307.5,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 307.5,
+          "available": true
         }
       ]
     },
@@ -982,6 +1037,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 8.99,
           "available": true
         }
@@ -1080,6 +1140,11 @@
           "date": "2026-09-08",
           "price": 150.0,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 150.0,
+          "available": true
         }
       ]
     },
@@ -1176,13 +1241,18 @@
           "date": "2026-09-08",
           "price": 19.95,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 19.95,
+          "available": true
         }
       ]
     },
     {
       "key": "B0DVZBR9TJ",
       "asin": "B0DVZBR9TJ",
-      "title": "BuzzTV P6 PowerStation Media Hub with 8GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
+      "title": "BuzzTV P6 PowerStation Media Hub with 16GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
       "url": "https://www.amazon.com/dp/B0DVZBR9TJ/",
       "currency": "USD",
       "available": false,
@@ -1270,6 +1340,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-09-09",
           "price": null,
           "available": false
         }
@@ -1368,6 +1443,11 @@
           "date": "2026-09-08",
           "price": 656.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 656.99,
+          "available": true
         }
       ]
     },
@@ -1462,6 +1542,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 144.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 144.99,
           "available": true
         }
@@ -1560,6 +1645,11 @@
           "date": "2026-09-08",
           "price": 23.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 23.99,
+          "available": true
         }
       ]
     },
@@ -1656,6 +1746,11 @@
           "date": "2026-09-08",
           "price": 26.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 26.99,
+          "available": true
         }
       ]
     },
@@ -1666,12 +1761,12 @@
       "url": "https://www.amazon.com/dp/B093H8RGXX/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 37.62,
+      "currentPrice": 37.6,
       "firstPrice": 37.73,
       "minPrice": 37.56,
       "maxPrice": 37.84,
-      "change": -0.11,
-      "changePct": -0.29,
+      "change": -0.13,
+      "changePct": -0.34,
       "history": [
         {
           "date": "2026-08-18",
@@ -1751,6 +1846,11 @@
         {
           "date": "2026-09-08",
           "price": 37.62,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 37.6,
           "available": true
         }
       ]
@@ -1846,6 +1946,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 32.88,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 32.88,
           "available": true
         }
@@ -1944,6 +2049,11 @@
           "date": "2026-09-08",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -2040,6 +2150,11 @@
           "date": "2026-09-08",
           "price": 199.0,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 199.0,
+          "available": true
         }
       ]
     },
@@ -2050,12 +2165,12 @@
       "url": "https://www.amazon.com/dp/B0DPR9LBJC/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 37.4,
+      "currentPrice": 44.0,
       "firstPrice": 44.0,
       "minPrice": 37.4,
       "maxPrice": 44.0,
-      "change": -6.6,
-      "changePct": -15.0,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-08-18",
@@ -2135,6 +2250,11 @@
         {
           "date": "2026-09-08",
           "price": 37.4,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 44.0,
           "available": true
         }
       ]
@@ -2230,6 +2350,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 160.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 160.0,
           "available": true
         }
@@ -2328,6 +2453,11 @@
           "date": "2026-09-08",
           "price": 489.5,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 489.5,
+          "available": true
         }
       ]
     },
@@ -2422,6 +2552,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 25.64,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 25.64,
           "available": true
         }
@@ -2520,6 +2655,11 @@
           "date": "2026-09-08",
           "price": 14.0,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 14.0,
+          "available": true
         }
       ]
     },
@@ -2614,6 +2754,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 20.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 20.99,
           "available": true
         }
@@ -2712,6 +2857,11 @@
           "date": "2026-09-08",
           "price": 40.0,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 40.0,
+          "available": true
         }
       ]
     },
@@ -2806,6 +2956,11 @@
         },
         {
           "date": "2026-09-08",
+          "price": 50.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
           "price": 50.0,
           "available": true
         }
@@ -2904,6 +3059,11 @@
           "date": "2026-09-08",
           "price": 25.99,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 25.99,
+          "available": true
         }
       ]
     },
@@ -3000,6 +3160,11 @@
           "date": "2026-09-08",
           "price": 479.0,
           "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 479.0,
+          "available": true
         }
       ]
     },
@@ -3009,7 +3174,7 @@
       "title": "Blue Tees Golf Player+ AI-Powered GPS Speaker - Touchscreen Display, 10+ Hour Battery, 40,000+ Courses, Visual & Audible Distances, Hazard Detection, IPX7 Waterproof (Black)",
       "url": "https://www.amazon.com/dp/B0CF9THQDK/",
       "currency": "USD",
-      "available": false,
+      "available": true,
       "currentPrice": 169.98,
       "firstPrice": 169.98,
       "minPrice": 169.98,
@@ -3096,6 +3261,11 @@
           "date": "2026-09-08",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-09-09",
+          "price": 169.98,
+          "available": true
         }
       ]
     },
@@ -3106,12 +3276,12 @@
       "url": "https://www.amazon.com/dp/B08F65MX4L/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 59.99,
+      "currentPrice": 54.99,
       "firstPrice": 59.99,
-      "minPrice": 59.99,
+      "minPrice": 54.99,
       "maxPrice": 59.99,
-      "change": 0.0,
-      "changePct": 0.0,
+      "change": -5.0,
+      "changePct": -8.33,
       "history": [
         {
           "date": "2026-08-18",
@@ -3191,6 +3361,11 @@
         {
           "date": "2026-09-08",
           "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 54.99,
           "available": true
         }
       ]
