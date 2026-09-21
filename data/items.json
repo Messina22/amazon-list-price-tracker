@@ -14,7 +14,7 @@
     "asin": "B0GTZC19FX",
     "item_id": "I1LMPCI7NGUJAM",
     "title": "UGREEN NAS DXP4800 GT 4-Bay for Creators, Tech Enthusiasts and Office Teams | Smart Home Data Hub, Direct NAS Editing & Dual 10GbE Transfers, Ryzen R2514, 8GB DDR4, 2x 10GbE, 2x M.2 NVMe Slots, Diskless",
-    "price": 659.99,
+    "price": 559.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTZC19FX/"
@@ -104,7 +104,7 @@
     "asin": "B07GNDDNMW",
     "item_id": "I3NSX8I0OF132Q",
     "title": "SIHOO M18 Ergonomic Office Chair, Mesh Back Desk Chair with Headrest | Adjustable Lumbar Support, Hold 330lbs Computer Chair with 2D Armrests & Wide Cushion, Tilt Lock, for Home Office - Black",
-    "price": 169.99,
+    "price": 132.53,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B07GNDDNMW/"
@@ -124,7 +124,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 274.99,
+    "price": 307.0,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -134,7 +134,7 @@
     "asin": "B07WCR5Y4B",
     "item_id": "I36EXJIRO7KRZP",
     "title": "TempPro TempAir Digital Hygrometer Indoor Thermometer | Humidity Meter Room Thermometer with Temperature and Humidity Monitor Mini Hygrometer",
-    "price": 8.99,
+    "price": 9.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B07WCR5Y4B/"
@@ -154,7 +154,7 @@
     "asin": "B0FDZHJCS2",
     "item_id": "IG0ZA3XP2DQ6T",
     "title": "Thunderworks Games: FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Board Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-    "price": 19.95,
+    "price": 18.95,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
@@ -174,7 +174,7 @@
     "asin": "B0D22JRHZB",
     "item_id": "ITKJWU73M7L42",
     "title": "UGREEN DXP4800 Plus 4-Bay NAS for Families, Creators & Small Teams | 4K Home Media, File Server & Hardware Transcoding, Intel 8505, 8GB DDR5, 10GbE&2.5GbE, Built-in 128G SSD, 2xM.2 NVMe,Diskless",
-    "price": 619.99,
+    "price": 656.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0D22JRHZB/"
@@ -274,7 +274,7 @@
     "asin": "B095QX1FSR",
     "item_id": "I1BNX13CZDTLV3",
     "title": "Garmin Approach R10, Portable Golf Launch Monitor, Take Your Game Home, Indoors or to The Driving Range, Up to 10 Hours Battery Life - 010-02356-00",
-    "price": 479.0,
+    "price": 480.0,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B095QX1FSR/"
@@ -345,7 +345,7 @@
     "item_id": "IUQMUY60RAWMZ",
     "title": "Kinesis Advantage360 Split Ergonomic Keyboard - USB-C | Mechanical Switches | Fully Programmable | Contoured Shape | Adjustable Tenting | PBT Keycaps",
     "price": 479.0,
-    "currency": "USD",
+    "currency": null,
     "available": true,
     "url": "https://www.amazon.com/dp/B0BCHFHX6V/"
   },
@@ -354,9 +354,9 @@
     "asin": "B0CF9THQDK",
     "item_id": "I36P0F0DU9IBU1",
     "title": "Blue Tees Golf Player+ AI-Powered GPS Speaker - Touchscreen Display, 10+ Hour Battery, 40,000+ Courses, Visual & Audible Distances, Hazard Detection, IPX7 Waterproof (Black)",
-    "price": null,
+    "price": 139.99,
     "currency": null,
-    "available": false,
+    "available": true,
     "url": "https://www.amazon.com/dp/B0CF9THQDK/"
   },
   {
