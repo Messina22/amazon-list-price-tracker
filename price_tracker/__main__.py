@@ -2,6 +2,7 @@
 
 Usage:
     python -m price_tracker run              # scrape the list and record today's prices
+    python -m price_tracker run --skip-if-recorded   # ...unless today is already recorded
     python -m price_tracker history          # print stored price history per item
     python -m price_tracker dashboard        # open the price-history line graphs
     python -m price_tracker build-dashboard  # write a static dashboard site
@@ -16,6 +17,7 @@ import json
 import sys
 import webbrowser
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 from .config import Config, ConfigError, load_config
@@ -26,9 +28,22 @@ from .report import build_report, report_to_dict
 from .scraper import ScrapeError, scrape_list
 from .storage import load_history, prune_history, record_prices, write_items_snapshot
 
+# Exit codes. A blocked fetch is transient (Amazon serves GitHub's runners a
+# CAPTCHA often enough), so it gets its own code: the daily workflow retries
+# later in the day instead of treating it as a broken configuration.
+EXIT_ERROR = 1
+EXIT_FETCH_BLOCKED = 2
 
-def cmd_run(config_path: Path) -> int:
+
+def cmd_run(config_path: Path, skip_if_recorded: bool = False) -> int:
     config = load_config(config_path)
+
+    if skip_if_recorded:
+        today = date.today().isoformat()
+        if any(record.date == today for record in load_history(config.history_file)):
+            print(f"Prices for {today} are already recorded — nothing to fetch.")
+            return 0
+
     print(f"Fetching list: {config.list_url}")
     items = scrape_list(config.list_url)
     print(f"Found {len(items)} item(s)")
@@ -204,6 +219,11 @@ def main(argv: list[str] | None = None) -> int:
         help="send the notification even when today is not a scheduled send day",
     )
     parser.add_argument(
+        "--skip-if-recorded",
+        action="store_true",
+        help="for run: do nothing when today's prices are already in the history",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="build the notification and print it instead of sending it",
@@ -219,7 +239,7 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         if args.command == "run":
-            return cmd_run(args.config)
+            return cmd_run(args.config, skip_if_recorded=args.skip_if_recorded)
         if args.command == "history":
             return cmd_history(args.config)
         if args.command == "dashboard":
@@ -231,9 +251,12 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "report":
             return cmd_report(args.config, args.baseline, args.output_format)
         return cmd_build_dashboard(args.config, args.out)
-    except (ConfigError, NotifyError, ScrapeError, ValueError, OSError) as exc:
+    except ScrapeError as exc:
         print(f"Error: {exc}", file=sys.stderr)
-        return 1
+        return EXIT_FETCH_BLOCKED
+    except (ConfigError, NotifyError, ValueError, OSError) as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        return EXIT_ERROR
 
 
 if __name__ == "__main__":

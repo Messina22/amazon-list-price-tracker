@@ -2,9 +2,14 @@ name: Track prices
 
 on:
   schedule:
-    # Every day at 09:23 UTC (an off-peak, non-round minute to avoid the
-    # GitHub Actions top-of-hour cron rush).
+    # Three attempts a day (off-peak, non-round minutes to avoid the GitHub
+    # Actions top-of-hour cron rush). Amazon serves GitHub's datacenter IPs a
+    # CAPTCHA often enough that a single attempt lost roughly a third of the
+    # days. Once a day is recorded the later attempts do nothing, and only the
+    # last one of the day reports a failure.
+    - cron: "23 3 * * *"
     - cron: "23 9 * * *"
+    - cron: "23 15 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -14,11 +19,21 @@ concurrency:
   group: track-prices
   cancel-in-progress: false
 
+env:
+  # Keep this in sync with the last cron above. Earlier attempts only warn
+  # when Amazon blocks the fetch, because a retry is still coming; the last
+  # attempt of the day (and any manual run) fails so the gap is visible.
+  LAST_ATTEMPT_CRON: "23 15 * * *"
+
 jobs:
   track:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
+        with:
+          # Full history: the commit step rebases when main moved under it.
+          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
@@ -28,14 +43,50 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Record today's prices
-        run: python -m price_tracker run
+      - name: Is this the last attempt of the day?
+        id: attempt
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$EVENT_NAME" != "schedule" ] || [ "$SCHEDULE" = "$LAST_ATTEMPT_CRON" ]; then
+            echo "last=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "last=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      # Runs on every daily run; the tracker itself decides whether today is a
-      # send day (daily, or the weekday configured in config.yaml) and stays
-      # quiet otherwise. A delivery failure must not lose the day's prices, so
-      # this step never fails the job.
+      # Exit code 2 means Amazon would not serve the list (CAPTCHA or rate
+      # limit). That is transient, so it does not fail the job outright; any
+      # other non-zero exit is a real error and stops here.
+      - name: Record today's prices
+        id: record
+        run: |
+          set +e
+          python -m price_tracker run --skip-if-recorded
+          status=$?
+          set -e
+          case "$status" in
+            0)
+              echo "blocked=false" >> "$GITHUB_OUTPUT"
+              ;;
+            2)
+              echo "blocked=true" >> "$GITHUB_OUTPUT"
+              echo "::warning::Amazon did not serve the list (CAPTCHA or rate limit)."
+              ;;
+            *)
+              exit "$status"
+              ;;
+          esac
+
+      # The tracker itself decides whether today is a send day (daily, or the
+      # weekday configured in config.yaml) and stays quiet otherwise; it also
+      # records the send so the later attempts of the day do not double-send.
+      # A delivery failure must not lose the day's prices, so this step never
+      # fails the job. When the fetch was blocked the digest waits for a later
+      # attempt, unless this is the last one and there is nothing left to wait
+      # for.
       - name: Send price-change notifications
+        if: steps.record.outputs.blocked != 'true' || steps.attempt.outputs.last == 'true'
         continue-on-error: true
         env:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
@@ -50,7 +101,26 @@ jobs:
           git add data/
           if git diff --cached --quiet; then
             echo "No price changes to commit"
-          else
-            git commit -m "Record prices for $(date -u +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "Record prices for $(date -u +%F)"
+
+          # Another workflow (or a person) may have pushed while we scraped;
+          # rebase onto whatever is there rather than losing the day's prices.
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}/5) — rebasing onto origin/${GITHUB_REF_NAME}"
+            sleep $((attempt * 5))
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
+          echo "::error::Could not push today's prices after 5 attempts."
+          exit 1
+
+      - name: Report a day with no prices
+        if: steps.record.outputs.blocked == 'true' && steps.attempt.outputs.last == 'true'
+        run: |
+          echo "::error::Amazon blocked every attempt today — no prices recorded for $(date -u +%F)."
+          exit 1
