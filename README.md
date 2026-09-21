@@ -7,8 +7,9 @@ over time.
 ## How it works
 
 1. You point `config.yaml` at the share link of a **public** Amazon list.
-2. A GitHub Actions workflow runs once a day, fetches the list page, and
-   parses out each item's title, ASIN, and current price.
+2. A GitHub Actions workflow runs a few times a day. The first attempt that
+   gets through fetches the list page and parses out each item's title, ASIN,
+   and current price; the rest of that day's attempts do nothing.
 3. Each item's price is appended as one row per day to
    `data/price_history.csv`, and the workflow commits that file back to the
    repository — the git history doubles as an audit trail of every price
@@ -40,9 +41,11 @@ data.
    ```
 
 3. **Enable the schedule.** Commit and push to the default branch. The
-   `Track prices` workflow (`.github/workflows/track-prices.yml`) runs daily
-   at 09:23 UTC; you can also trigger it manually from the Actions tab via
-   *Run workflow*.
+   `Track prices` workflow (`.github/workflows/track-prices.yml`) runs at
+   03:23, 09:23 and 15:23 UTC. It records one row per item per day: the first
+   attempt that gets through does the work and the rest are no-ops, so a
+   CAPTCHA in the morning no longer costs the day. You can also trigger it
+   manually from the Actions tab via *Run workflow*.
 
 4. **Optional — turn on notifications.** See
    [Notifications](#notifications) to get a daily or weekly digest of how
@@ -154,11 +157,11 @@ configured: it is skipped rather than failing the run.
 
 ### Scheduling
 
-The daily `Track prices` workflow calls `python -m price_tracker notify` right
-after recording prices. That command is a no-op unless today is a send day, so
-a weekly digest still goes out from a daily workflow. The last send is recorded
-in `data/notification_state.json` and committed, so re-running the workflow on
-the same day does not send twice.
+The `Track prices` workflow calls `python -m price_tracker notify` right after
+recording prices. That command is a no-op unless today is a send day, so a
+weekly digest still goes out from a daily workflow. The last send is recorded
+in `data/notification_state.json` and committed, so the workflow's later
+attempts on the same day do not send twice.
 
 To send one on demand — handy for checking secrets — run the **Send price
 report** workflow from the Actions tab. It defaults to a dry run that prints
@@ -210,11 +213,16 @@ the line) to keep everything forever.
   logging in.
 - Amazon has no official wishlist API, so this parses the public page's HTML.
   GitHub-hosted runners are often served a CAPTCHA when the client looks like
-  `python-requests`; the tracker impersonates a Chrome TLS fingerprint and
-  retries a few times on CAPTCHA / 429 / 503. If a run still cannot fetch the
-  list, it fails that day and the next scheduled run tries again. Check the
-  Actions logs if that happens repeatedly. Amazon also changes its markup
-  from time to time.
+  `python-requests`; the tracker impersonates a browser TLS fingerprint, loads
+  the storefront first to pick up cookies, and retries on CAPTCHA / 403 / 429
+  / 503 — each retry from a fresh session with a different browser
+  fingerprint, because Amazon flags the session it served the CAPTCHA to and
+  retrying on that same session just gets it again.
+  When a whole attempt is still blocked, `python -m price_tracker run` exits
+  with code 2 rather than 1, and the workflow treats that as "try again
+  later": it warns and moves on, and only the last attempt of the day reports
+  the day as failed. Check the Actions logs if that happens repeatedly.
+  Amazon also changes its markup from time to time.
 - Prices are whatever the list page displays (typically the default offer),
   which can differ from the price you'd see logged in with deals or coupons.
 

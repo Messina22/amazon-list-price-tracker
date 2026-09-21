@@ -9,6 +9,7 @@ rather than crashing the run.
 
 from __future__ import annotations
 
+import random
 import re
 import time
 from dataclasses import dataclass
@@ -32,11 +33,27 @@ DEFAULT_HEADERS = {
     "Upgrade-Insecure-Requests": "1",
 }
 
+# Browser fingerprints to cycle through. Amazon's WAF flags a *session* (its
+# TLS fingerprint plus the cookies it was handed), so a retry on the same
+# session is served the same CAPTCHA — each attempt goes out as a different
+# browser instead.
+IMPERSONATE_PROFILES = (
+    "chrome",
+    "chrome124",
+    "safari17_0",
+    "edge101",
+    "chrome110",
+)
+
 MAX_PAGES = 50  # safety cap on pagination
 PAGE_DELAY_SECONDS = 2.0  # politeness delay between page fetches
-FETCH_ATTEMPTS = 4
-RETRY_BACKOFF_SECONDS = (3.0, 8.0, 15.0)
-RETRY_HTTP_STATUSES = {429, 503}
+WARMUP_DELAY_SECONDS = 1.0  # pause between the homepage and the list page
+FETCH_ATTEMPTS = 5
+# A CAPTCHA block outlives a few seconds, so the later waits are long enough
+# for Amazon to stop holding the runner's IP against us.
+RETRY_BACKOFF_SECONDS = (5.0, 20.0, 60.0, 120.0)
+RETRY_JITTER = 0.25  # ±25%, so repeated runs don't retry in lockstep
+RETRY_HTTP_STATUSES = {403, 429, 503}
 
 _ASIN_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 _PRICE_RE = re.compile(r"(\d[\d,]*)(?:[.,](\d{2}))?")
@@ -104,20 +121,98 @@ def is_captcha_page(html: str) -> bool:
     return soup.select_one("form[action*='validateCaptcha']") is not None
 
 
-def new_browser_session():
+def _plain_session():
+    session = requests.Session()
+    session.headers.update(DEFAULT_HEADERS)
+    return session
+
+
+def supported_profiles() -> tuple[str, ...]:
+    """The entries of ``IMPERSONATE_PROFILES`` this curl_cffi build knows.
+
+    Passing a profile curl_cffi does not recognise only fails once the request
+    is made, which would waste a retry, so unknown names are dropped up front.
+    """
+    try:
+        import typing
+
+        from curl_cffi.requests.impersonate import BrowserTypeLiteral
+
+        known = set(typing.get_args(BrowserTypeLiteral))
+    except Exception:
+        return ("chrome",)
+    return tuple(p for p in IMPERSONATE_PROFILES if p in known) or ("chrome",)
+
+
+def new_browser_session(profile: str | None = None):
     """HTTP session that looks like a real browser.
 
     Amazon's WAF fingerprints the TLS handshake. ``python-requests`` is easy
-    to spot, so we impersonate Chrome via curl_cffi when it is installed.
+    to spot, so we impersonate a browser via curl_cffi when it is installed.
+    ``profile`` picks which browser; the default is the first supported entry
+    of ``IMPERSONATE_PROFILES``.
     """
     try:
         from curl_cffi import requests as creq
-
-        return creq.Session(impersonate="chrome")
     except Exception:
-        session = requests.Session()
-        session.headers.update(DEFAULT_HEADERS)
-        return session
+        return _plain_session()
+
+    try:
+        return creq.Session(impersonate=profile or supported_profiles()[0])
+    except Exception:
+        return _plain_session()
+
+
+def warm_up(session, home_url: str) -> None:
+    """Pick up Amazon's cookies before asking for the list.
+
+    A client whose very first request is a wishlist page, carrying no cookies,
+    looks like a scraper. Landing on the storefront first is what a browser
+    does. Best effort: a failure here is not worth losing the run over, the
+    list fetch that follows reports the real problem.
+    """
+    try:
+        session.get(home_url, timeout=30)
+        time.sleep(WARMUP_DELAY_SECONDS)
+    except Exception as exc:  # pragma: no cover - network-dependent
+        print(f"Warm-up request failed (continuing): {exc}", flush=True)
+
+
+class _SessionPool:
+    """Hands out the session used for the current attempt.
+
+    ``rotate()`` throws away a session Amazon has flagged so the next attempt
+    starts from a clean cookie jar and a different TLS fingerprint. A session
+    passed in by the caller (the tests, mainly) is kept as-is.
+    """
+
+    def __init__(self, session=None, home_url: str | None = None):
+        self._caller_session = session
+        self._session = session
+        self._home_url = home_url
+        self._attempt = 0
+
+    def get(self):
+        if self._session is None:
+            profiles = supported_profiles()
+            self._session = new_browser_session(
+                profiles[self._attempt % len(profiles)]
+            )
+            if self._home_url:
+                warm_up(self._session, self._home_url)
+        return self._session
+
+    def rotate(self) -> None:
+        if self._caller_session is not None:
+            return
+        close = getattr(self._session, "close", None)
+        if close is not None:
+            try:
+                close()
+            except Exception:
+                pass
+        self._session = None
+        self._attempt += 1
 
 
 def _parse_item(li, base_url: str) -> ListItem:
@@ -215,14 +310,23 @@ def _http_get(session, url: str):
     return session.get(url, timeout=30)
 
 
+def _retry_delay(attempt: int) -> float:
+    """Seconds to wait before ``attempt`` (2-based), with a little jitter."""
+    base = RETRY_BACKOFF_SECONDS[min(attempt - 2, len(RETRY_BACKOFF_SECONDS) - 1)]
+    return base * (1 + random.uniform(-RETRY_JITTER, RETRY_JITTER))
+
+
 def _load_list_page(
-    session, url: str, *, retry_empty: bool
+    pool: "_SessionPool", url: str, *, retry_empty: bool
 ) -> tuple[list[ListItem], str | None]:
     """GET and parse one list page, retrying CAPTCHAs and empty first loads."""
     last_error: Exception | None = None
     for attempt in range(1, FETCH_ATTEMPTS + 1):
         if attempt > 1:
-            delay = RETRY_BACKOFF_SECONDS[min(attempt - 2, len(RETRY_BACKOFF_SECONDS) - 1)]
+            # The previous attempt was blocked, throttled or empty: drop that
+            # session so the retry goes out as a different browser.
+            pool.rotate()
+            delay = _retry_delay(attempt)
             print(
                 f"Retrying list fetch in {delay:.0f}s "
                 f"(attempt {attempt}/{FETCH_ATTEMPTS}): {last_error}",
@@ -230,6 +334,7 @@ def _load_list_page(
             )
             time.sleep(delay)
 
+        session = pool.get()
         try:
             response = _http_get(session, url)
         except Exception as exc:
@@ -277,7 +382,7 @@ def scrape_list(list_url: str, session=None) -> list[ListItem]:
     if parsed.scheme not in ("http", "https") or "amazon" not in parsed.netloc:
         raise ScrapeError(f"That does not look like an Amazon list URL: {list_url}")
 
-    session = session or new_browser_session()
+    pool = _SessionPool(session, home_url=f"{parsed.scheme}://{parsed.netloc}/")
 
     all_items: list[ListItem] = []
     seen_ids: set[str] = set()
@@ -289,7 +394,7 @@ def scrape_list(list_url: str, session=None) -> list[ListItem]:
         if page > 0:
             time.sleep(PAGE_DELAY_SECONDS)
 
-        items, next_url = _load_list_page(session, url, retry_empty=(page == 0))
+        items, next_url = _load_list_page(pool, url, retry_empty=(page == 0))
         new_items = [
             item
             for item in items

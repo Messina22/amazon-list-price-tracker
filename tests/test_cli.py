@@ -1,9 +1,9 @@
 import json
-from datetime import date
+from datetime import date, timedelta
 
 import pytest
 
-from price_tracker import __main__, notify
+from price_tracker import __main__, notify, scraper
 from price_tracker.__main__ import main
 
 
@@ -22,10 +22,20 @@ notifications:
     url: https://hook.test/x
 """
 
-HISTORY = """date,key,asin,item_id,title,price,currency,available
-2026-08-16,B08XYZ1234,B08XYZ1234,I_1,Water Bottle,30.00,USD,true
-2026-08-17,B08XYZ1234,B08XYZ1234,I_1,Water Bottle,30.00,USD,true
-"""
+
+# Dated relative to today: the report compares the current price with the past
+# week's average, so fixed dates would stop producing a mover once they aged
+# out of the baseline window.
+def _history(*days_ago: int) -> str:
+    rows = "".join(
+        f"{(date.today() - timedelta(days=n)).isoformat()},"
+        "B08XYZ1234,B08XYZ1234,I_1,Water Bottle,30.00,USD,true\n"
+        for n in days_ago
+    )
+    return "date,key,asin,item_id,title,price,currency,available\n" + rows
+
+
+HISTORY = _history(2, 1)
 
 ITEMS = [
     {
@@ -125,6 +135,55 @@ def test_notify_off_schedule_is_quiet(tmp_path, capsys):
     )
     assert main(["--config", str(config), "notify"]) == 0
     assert "disabled" in capsys.readouterr().out
+
+
+def test_run_skips_when_today_is_already_recorded(project, capsys, monkeypatch):
+    config, _ = project
+    history = config.parent / "price_history.csv"
+    history.write_text(_history(0))
+
+    def fail(*args, **kwargs):
+        raise AssertionError("must not hit the network when today is recorded")
+
+    monkeypatch.setattr(__main__, "scrape_list", fail)
+    assert main(["--config", str(config), "run", "--skip-if-recorded"]) == 0
+    assert "already recorded" in capsys.readouterr().out
+
+
+def test_run_scrapes_when_today_is_missing(project, monkeypatch):
+    config, _ = project
+    calls = []
+    monkeypatch.setattr(
+        __main__,
+        "scrape_list",
+        lambda url: calls.append(url)
+        or [
+            scraper.ListItem(
+                asin="B08XYZ1234",
+                item_id="I_1",
+                title="Water Bottle",
+                price=21.0,
+                currency="USD",
+                available=True,
+                url="https://www.amazon.com/dp/B08XYZ1234/",
+            )
+        ],
+    )
+    assert main(["--config", str(config), "run", "--skip-if-recorded"]) == 0
+    assert calls == ["https://www.amazon.com/hz/wishlist/ls/TEST"]
+    assert date.today().isoformat() in (config.parent / "price_history.csv").read_text()
+
+
+def test_blocked_fetch_exits_with_the_retryable_code(project, capsys, monkeypatch):
+    """The daily workflow tells a CAPTCHA (exit 2) apart from a real error."""
+    config, _ = project
+
+    def blocked(url):
+        raise scraper.ScrapeError("Amazon returned a CAPTCHA page instead of the list.")
+
+    monkeypatch.setattr(__main__, "scrape_list", blocked)
+    assert main(["--config", str(config), "run"]) == __main__.EXIT_FETCH_BLOCKED
+    assert "CAPTCHA" in capsys.readouterr().err
 
 
 def test_bad_baseline_override_is_a_clean_error(project, capsys):

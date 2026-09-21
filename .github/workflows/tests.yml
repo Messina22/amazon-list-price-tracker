@@ -2,6 +2,10 @@ name: Tests
 
 on:
   push:
+    # The tracker's own commits only touch data/, and nothing under test reads
+    # those files — no need to re-run the suite three dozen times a month.
+    paths-ignore:
+      - data/**
   pull_request:
 
 jobs:

@@ -2,12 +2,15 @@ from pathlib import Path
 
 import pytest
 
+from price_tracker import scraper
 from price_tracker.scraper import (
+    FETCH_ATTEMPTS,
     ScrapeError,
     is_captcha_page,
     parse_list_page,
     parse_price_text,
     scrape_list,
+    supported_profiles,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -194,4 +197,60 @@ def test_scrape_list_gives_up_after_captcha_retries(monkeypatch):
     session = FakeSession(lambda _url, _call: FakeResponse(CAPTCHA_HTML))
     with pytest.raises(ScrapeError, match="CAPTCHA"):
         scrape_list(BASE_URL, session=session)
-    assert len(session.calls) == 4
+    assert len(session.calls) == FETCH_ATTEMPTS
+
+
+def test_blocked_attempts_get_a_fresh_browser_fingerprint(monkeypatch):
+    """A flagged session is served the same CAPTCHA, so each retry is a new one."""
+    monkeypatch.setattr("price_tracker.scraper.time.sleep", lambda seconds: None)
+    monkeypatch.setattr(scraper, "supported_profiles", lambda: ("chrome", "safari17_0"))
+
+    profiles = []
+
+    def fake_session(profile=None):
+        profiles.append(profile)
+        captcha = len(profiles) == 1
+        return FakeSession(
+            lambda _url, _call: FakeResponse(
+                CAPTCHA_HTML
+                if captcha
+                else (FIXTURES / "wishlist_last_page.html").read_text()
+            )
+        )
+
+    monkeypatch.setattr(scraper, "new_browser_session", fake_session)
+
+    items = scrape_list(BASE_URL)
+    assert [item.asin for item in items] == ["B09CABLE11"]
+    assert profiles == ["chrome", "safari17_0"]
+
+
+def test_a_new_session_warms_up_on_the_storefront_first(monkeypatch):
+    monkeypatch.setattr("price_tracker.scraper.time.sleep", lambda seconds: None)
+    monkeypatch.setattr(scraper, "supported_profiles", lambda: ("chrome",))
+
+    session = FakeSession(
+        lambda _url, _call: FakeResponse(
+            (FIXTURES / "wishlist_last_page.html").read_text()
+        )
+    )
+    monkeypatch.setattr(scraper, "new_browser_session", lambda profile=None: session)
+
+    scrape_list(BASE_URL)
+    assert session.calls == ["https://www.amazon.com/", BASE_URL]
+
+
+def test_a_caller_supplied_session_is_used_as_is(monkeypatch):
+    """Tests (and callers with their own session) get no warm-up or rotation."""
+    monkeypatch.setattr("price_tracker.scraper.time.sleep", lambda seconds: None)
+    session = FakeSession(
+        lambda _url, _call: FakeResponse(
+            (FIXTURES / "wishlist_last_page.html").read_text()
+        )
+    )
+    scrape_list(BASE_URL, session=session)
+    assert session.calls == [BASE_URL]
+
+
+def test_supported_profiles_never_empty():
+    assert supported_profiles()
