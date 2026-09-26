@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-09-25T09:00:26Z",
+  "generatedAt": "2026-09-26T08:43:31Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-09-25",
-  "itemCount": 42,
-  "availableCount": 40,
+  "lastDate": "2026-09-26",
+  "itemCount": 43,
+  "availableCount": 41,
   "items": [
+    {
+      "key": "B07YYVHMXB",
+      "asin": "B07YYVHMXB",
+      "title": "VENO 5 Pack Summer Wreath Storage Bag, Spring, Christmas Decoration Garland Container, 30 Inch Clear Door Wreath Organizers, Moving Boxes, Packing Supplies for College (Square - 5 Pack)",
+      "url": "https://www.amazon.com/dp/B07YYVHMXB/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 41.99,
+      "firstPrice": 41.99,
+      "minPrice": 41.99,
+      "maxPrice": 41.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-09-26",
+          "price": 41.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0FD3PQXNL",
       "asin": "B0FD3PQXNL",
@@ -56,6 +77,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 36.99,
           "available": true
         }
@@ -122,6 +148,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 559.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 559.99,
           "available": true
         }
@@ -208,6 +239,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 18.0,
           "available": true
         }
@@ -331,6 +367,11 @@
           "date": "2026-09-25",
           "price": 43.99,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 43.99,
+          "available": true
         }
       ]
     },
@@ -341,12 +382,12 @@
       "url": "https://www.amazon.com/dp/B001RBTSMM/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 12.25,
+      "currentPrice": 12.15,
       "firstPrice": 11.54,
       "minPrice": 11.54,
       "maxPrice": 12.83,
-      "change": 0.71,
-      "changePct": 6.15,
+      "change": 0.61,
+      "changePct": 5.29,
       "history": [
         {
           "date": "2026-08-30",
@@ -456,6 +497,11 @@
         {
           "date": "2026-09-25",
           "price": 12.25,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 12.15,
           "available": true
         }
       ]
@@ -606,6 +652,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 24.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 24.99,
           "available": true
         }
@@ -764,6 +815,11 @@
           "date": "2026-09-25",
           "price": 29.99,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 29.99,
+          "available": true
         }
       ]
     },
@@ -918,6 +974,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 13.99,
           "available": true
         }
@@ -1081,6 +1142,11 @@
           "date": "2026-09-25",
           "price": 39.95,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 39.95,
+          "available": true
         }
       ]
     },
@@ -1240,6 +1306,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 179.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 179.95,
           "available": true
         }
@@ -1403,6 +1474,11 @@
           "date": "2026-09-25",
           "price": 132.53,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 132.53,
+          "available": true
         }
       ]
     },
@@ -1564,6 +1640,11 @@
           "date": "2026-09-25",
           "price": 159.0,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 159.0,
+          "available": true
         }
       ]
     },
@@ -1574,12 +1655,12 @@
       "url": "https://www.amazon.com/dp/B0GTB3BMYQ/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 306.96,
+      "currentPrice": 297.95,
       "firstPrice": 318.5,
       "minPrice": 274.99,
       "maxPrice": 329.4,
-      "change": -11.54,
-      "changePct": -3.62,
+      "change": -20.55,
+      "changePct": -6.45,
       "history": [
         {
           "date": "2026-08-18",
@@ -1724,6 +1805,11 @@
         {
           "date": "2026-09-25",
           "price": 306.96,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 297.95,
           "available": true
         }
       ]
@@ -1884,6 +1970,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 9.99,
           "available": true
         }
@@ -2047,13 +2138,18 @@
           "date": "2026-09-25",
           "price": 155.0,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 155.0,
+          "available": true
         }
       ]
     },
     {
       "key": "B0FDZHJCS2",
       "asin": "B0FDZHJCS2",
-      "title": "Thunderworks Games: FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Board Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
+      "title": "Thunderworks Games FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
       "url": "https://www.amazon.com/dp/B0FDZHJCS2/",
       "currency": "USD",
       "available": true,
@@ -2206,6 +2302,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 19.95,
           "available": true
         }
@@ -2369,6 +2470,11 @@
           "date": "2026-09-25",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-09-26",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -2528,6 +2634,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 656.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 656.99,
           "available": true
         }
@@ -2691,6 +2802,11 @@
           "date": "2026-09-25",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -2850,6 +2966,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 23.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 23.99,
           "available": true
         }
@@ -3013,6 +3134,11 @@
           "date": "2026-09-25",
           "price": 26.99,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 26.99,
+          "available": true
         }
       ]
     },
@@ -3023,12 +3149,12 @@
       "url": "https://www.amazon.com/dp/B093H8RGXX/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 37.45,
+      "currentPrice": 37.5,
       "firstPrice": 37.73,
       "minPrice": 37.45,
       "maxPrice": 37.84,
-      "change": -0.28,
-      "changePct": -0.74,
+      "change": -0.23,
+      "changePct": -0.61,
       "history": [
         {
           "date": "2026-08-18",
@@ -3173,6 +3299,11 @@
         {
           "date": "2026-09-25",
           "price": 37.45,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 37.5,
           "available": true
         }
       ]
@@ -3333,6 +3464,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 31.99,
           "available": true
         }
@@ -3496,6 +3632,11 @@
           "date": "2026-09-25",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -3655,6 +3796,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 199.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 199.0,
           "available": true
         }
@@ -3818,6 +3964,11 @@
           "date": "2026-09-25",
           "price": 44.0,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 44.0,
+          "available": true
         }
       ]
     },
@@ -3977,6 +4128,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 160.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 160.0,
           "available": true
         }
@@ -4140,6 +4296,11 @@
           "date": "2026-09-25",
           "price": 489.5,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 489.5,
+          "available": true
         }
       ]
     },
@@ -4299,6 +4460,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 29.99,
           "available": true
         }
@@ -4462,6 +4628,11 @@
           "date": "2026-09-25",
           "price": 16.15,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 16.15,
+          "available": true
         }
       ]
     },
@@ -4472,12 +4643,12 @@
       "url": "https://www.amazon.com/dp/B076QDH9MY/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 20.51,
+      "currentPrice": 20.27,
       "firstPrice": 22.24,
       "minPrice": 18.85,
       "maxPrice": 22.24,
-      "change": -1.73,
-      "changePct": -7.78,
+      "change": -1.97,
+      "changePct": -8.86,
       "history": [
         {
           "date": "2026-08-18",
@@ -4622,6 +4793,11 @@
         {
           "date": "2026-09-25",
           "price": 20.51,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 20.27,
           "available": true
         }
       ]
@@ -4782,6 +4958,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 40.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 40.0,
           "available": true
         }
@@ -4945,6 +5126,11 @@
           "date": "2026-09-25",
           "price": 50.0,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 50.0,
+          "available": true
         }
       ]
     },
@@ -5104,6 +5290,11 @@
         },
         {
           "date": "2026-09-25",
+          "price": 34.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
           "price": 34.0,
           "available": true
         }
@@ -5267,6 +5458,11 @@
           "date": "2026-09-25",
           "price": 479.0,
           "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 479.0,
+          "available": true
         }
       ]
     },
@@ -5428,6 +5624,11 @@
           "date": "2026-09-25",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-09-26",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -5438,12 +5639,12 @@
       "url": "https://www.amazon.com/dp/B08F65MX4L/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 44.0,
+      "currentPrice": 51.21,
       "firstPrice": 59.99,
       "minPrice": 44.0,
       "maxPrice": 59.99,
-      "change": -15.99,
-      "changePct": -26.65,
+      "change": -8.78,
+      "changePct": -14.64,
       "history": [
         {
           "date": "2026-08-18",
@@ -5588,6 +5789,11 @@
         {
           "date": "2026-09-25",
           "price": 44.0,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 51.21,
           "available": true
         }
       ]
