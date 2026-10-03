@@ -1,5 +1,15 @@
 [
   {
+    "key": "B00EWCTBZC",
+    "asin": "B00EWCTBZC",
+    "item_id": "I2HQDJ0Z9OIDO6",
+    "title": "Front Door Garland Hanger, Adjustable to Different Door Widths | Heavy-Duty Cast Iron, Decorative Christmas Decor, Pressure Mount - No Nails, Screws, or Damage",
+    "price": 59.99,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B00EWCTBZC/"
+  },
+  {
     "key": "B0H1HWRB1T",
     "asin": "B0H1HWRB1T",
     "item_id": "I2AEYEHFWMUKVE",
@@ -134,7 +144,7 @@
     "asin": "B07GNDDNMW",
     "item_id": "I3NSX8I0OF132Q",
     "title": "SIHOO M18 Ergonomic Office Chair, Mesh Back Desk Chair with Headrest | Adjustable Lumbar Support, Hold 330lbs Computer Chair with 2D Armrests & Wide Cushion, Tilt Lock, for Home Office - Black",
-    "price": 146.99,
+    "price": 169.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B07GNDDNMW/"
@@ -154,7 +164,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 295.11,
+    "price": 302.82,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -194,9 +204,9 @@
     "asin": "B0DVZBR9TJ",
     "item_id": "I1Q4XIXONYIP0F",
     "title": "BuzzTV P6 PowerStation Media Hub with 16GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
-    "price": null,
-    "currency": null,
-    "available": false,
+    "price": 429.0,
+    "currency": "USD",
+    "available": true,
     "url": "https://www.amazon.com/dp/B0DVZBR9TJ/"
   },
   {
@@ -304,7 +314,7 @@
     "asin": "B095QX1FSR",
     "item_id": "I1BNX13CZDTLV3",
     "title": "Garmin Approach R10, Portable Golf Launch Monitor, Take Your Game Home, Indoors or to The Driving Range, Up to 10 Hours Battery Life - 010-02356-00",
-    "price": 489.5,
+    "price": 484.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B095QX1FSR/"
