@@ -4,7 +4,7 @@
     "asin": "B0GSGS2TVH",
     "item_id": "ITF3Q4MMMA67Z",
     "title": "Camp Snap Classic 16MP Instant Camera, Xenon Flash, 4 Customizable Filters, Screenless Camera, 4GB Memory, USB-C Rechargeable Battery, Digital Camera, Compact and Durable",
-    "price": 112.07,
+    "price": 114.57,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GSGS2TVH/"
@@ -84,7 +84,7 @@
     "asin": "B09BTLP4P1",
     "item_id": "I3496FGAMW5MFT",
     "title": "Normcore 58.5mm Coffee Tamper V4 - Spring-Loaded Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Stainless Steel Flat Base,Black",
-    "price": 43.99,
+    "price": 42.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B09BTLP4P1/"
@@ -174,7 +174,7 @@
     "asin": "B0GTB3BMYQ",
     "item_id": "I1FL364PQOPWUS",
     "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 327.76,
+    "price": 329.0,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
@@ -194,7 +194,7 @@
     "asin": "B0D1KB96ZP",
     "item_id": "I39XRT1FQJCAGO",
     "title": "Pagani Design GMT Automatic Mechanical Men's Watch Rotating Ceramic Bezel Stainless Steel Watch with Date Function Men's Sport Watch",
-    "price": 155.0,
+    "price": 169.99,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0D1KB96ZP/"
@@ -204,9 +204,9 @@
     "asin": "B0FDZHJCS2",
     "item_id": "IG0ZA3XP2DQ6T",
     "title": "Thunderworks Games FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-    "price": 19.95,
-    "currency": "USD",
-    "available": true,
+    "price": null,
+    "currency": null,
+    "available": false,
     "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
   },
   {
@@ -244,7 +244,7 @@
     "asin": "B0CXDTP94L",
     "item_id": "I1H5MQZOP9CES3",
     "title": "68oz 304 Stainless Steel Deep Fryer Pot with Basket & Strainer, Large Capacity Bacon Grease Container for Kitchen,Frying, Cooking, Camping,Oil Filter Container - Dishwasher Safe (68oz/2L/2.1Qt)",
-    "price": 23.99,
+    "price": 21.59,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0CXDTP94L/"
@@ -364,9 +364,9 @@
     "asin": "B079ZPLL97",
     "item_id": "ISYIWW6FMCFC7",
     "title": "ONO Roller - Handheld Fidget Toy for Adults | Help Relieve Stress, Anxiety, Tension | Promotes Focus, Clarity | Compact, Portable Design (Black, Full Size - Aluminum)",
-    "price": 40.0,
-    "currency": "USD",
-    "available": true,
+    "price": null,
+    "currency": null,
+    "available": false,
     "url": "https://www.amazon.com/dp/B079ZPLL97/"
   },
   {
