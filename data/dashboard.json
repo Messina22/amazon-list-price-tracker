@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T08:43:53Z",
+  "generatedAt": "2026-10-22T08:47:18Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-10-21",
+  "lastDate": "2026-10-22",
   "itemCount": 47,
   "availableCount": 44,
   "items": [
@@ -12,12 +12,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 102.0,
+      "currentPrice": 108.25,
       "firstPrice": 111.74,
       "minPrice": 102.0,
       "maxPrice": 114.57,
-      "change": -9.74,
-      "changePct": -8.72,
+      "change": -3.49,
+      "changePct": -3.12,
       "history": [
         {
           "date": "2026-10-08",
@@ -88,650 +88,10 @@
           "date": "2026-10-21",
           "price": 102.0,
           "available": true
-        }
-      ]
-    },
-    {
-      "key": "B00EWCTBZC",
-      "asin": "B00EWCTBZC",
-      "title": "Front Door Garland Hanger, Adjustable to Different Door Widths | Heavy-Duty Cast Iron, Decorative Christmas Decor, Pressure Mount - No Nails, Screws, or Damage",
-      "url": "https://www.amazon.com/dp/B00EWCTBZC/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 59.99,
-      "firstPrice": 59.99,
-      "minPrice": 59.99,
-      "maxPrice": 59.99,
-      "change": 0.0,
-      "changePct": 0.0,
-      "history": [
-        {
-          "date": "2026-10-03",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-09",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-17",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-18",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-19",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-20",
-          "price": 59.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-21",
-          "price": 59.99,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B0H1HWRB1T",
-      "asin": "B0H1HWRB1T",
-      "title": "Womens 2 Piece Skirt Sets Fall Knit Sweaters and Mini Skirt Casual Outfits | Long Sleeve, Crewneck Tops, High Waisted, Scalloped Mini Skirt, Color Block, Soft Comfy, Fashion Outfits",
-      "url": "https://www.amazon.com/dp/B0H1HWRB1T/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 48.98,
-      "firstPrice": 43.98,
-      "minPrice": 43.98,
-      "maxPrice": 48.98,
-      "change": 5.0,
-      "changePct": 11.37,
-      "history": [
-        {
-          "date": "2026-10-02",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-03",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-09",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 43.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-17",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-18",
-          "price": 45.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-19",
-          "price": 47.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-20",
-          "price": 47.98,
-          "available": true
-        },
-        {
-          "date": "2026-10-21",
-          "price": 48.98,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B0H3PK2MX3",
-      "asin": "B0H3PK2MX3",
-      "title": "Women Boho Lace Trim Tank top Sleeveless Button Down Front Tie Lace Babydoll Tops Flowy Crop Top Beach Vacation Tops",
-      "url": "https://www.amazon.com/dp/B0H3PK2MX3/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 28.99,
-      "firstPrice": 29.99,
-      "minPrice": 28.99,
-      "maxPrice": 29.99,
-      "change": -1.0,
-      "changePct": -3.33,
-      "history": [
-        {
-          "date": "2026-09-29",
-          "price": 29.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-30",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-01",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-02",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-03",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 29.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 29.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-09",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-17",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-18",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-19",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-20",
-          "price": 28.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-21",
-          "price": 28.99,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B07YYVHMXB",
-      "asin": "B07YYVHMXB",
-      "title": "VENO 5 Pack Summer Wreath Storage Bag, Spring, Christmas Decoration Garland Container, 30 Inch Clear Door Wreath Organizers, Moving Boxes, Packing Supplies for College (Square - 5 Pack)",
-      "url": "https://www.amazon.com/dp/B07YYVHMXB/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 41.49,
-      "firstPrice": 41.99,
-      "minPrice": 41.49,
-      "maxPrice": 41.99,
-      "change": -0.5,
-      "changePct": -1.19,
-      "history": [
-        {
-          "date": "2026-09-26",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-29",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-30",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-01",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-02",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-03",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-09",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": 41.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-17",
-          "price": 41.49,
-          "available": true
-        },
-        {
-          "date": "2026-10-18",
-          "price": 41.49,
-          "available": true
-        },
-        {
-          "date": "2026-10-19",
-          "price": 41.49,
-          "available": true
-        },
-        {
-          "date": "2026-10-20",
-          "price": 41.49,
-          "available": true
-        },
-        {
-          "date": "2026-10-21",
-          "price": 41.49,
-          "available": true
-        }
-      ]
-    },
-    {
-      "key": "B0FD3PQXNL",
-      "asin": "B0FD3PQXNL",
-      "title": "U-QE 50Pcs Blue Plastic Plates - Botanical Stripes Plates Disposable | Heavy Duty, Fancy Floral Pattern Perfect for Weddings, Tea Parties, Holidays, 10.25\" Dinner & 7.5\" Dessert Plastic Plates",
-      "url": "https://www.amazon.com/dp/B0FD3PQXNL/",
-      "currency": "USD",
-      "available": true,
-      "currentPrice": 38.99,
-      "firstPrice": 36.99,
-      "minPrice": 36.99,
-      "maxPrice": 38.99,
-      "change": 2.0,
-      "changePct": 5.41,
-      "history": [
-        {
-          "date": "2026-09-15",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-19",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-20",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-21",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-22",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-23",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-24",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-25",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-26",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-29",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-09-30",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-01",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-02",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-03",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-09",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 36.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-17",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-18",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-19",
-          "price": 38.99,
-          "available": true
-        },
-        {
-          "date": "2026-10-20",
-          "price": 38.99,
-          "available": true
         },
         {
-          "date": "2026-10-21",
-          "price": 38.99,
+          "date": "2026-10-22",
+          "price": 108.25,
           "available": true
         }
       ]
@@ -912,6 +272,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 659.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 659.99,
           "available": true
         }
@@ -1113,6 +478,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 18.0,
           "available": true
         }
@@ -1349,6 +719,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 42.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 42.99,
           "available": true
         }
@@ -1590,6 +965,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 12.25,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 12.25,
           "available": true
         }
@@ -1856,6 +1236,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 29.99,
           "available": true
         }
@@ -2129,6 +1514,11 @@
           "date": "2026-10-21",
           "price": 30.05,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 30.05,
+          "available": true
         }
       ]
     },
@@ -2398,6 +1788,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 13.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 13.99,
           "available": true
         }
@@ -2676,6 +2071,11 @@
           "date": "2026-10-21",
           "price": 39.95,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 39.95,
+          "available": true
         }
       ]
     },
@@ -2950,6 +2350,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 179.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 179.95,
           "available": true
         }
@@ -3228,6 +2633,11 @@
           "date": "2026-10-21",
           "price": 132.53,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 132.53,
+          "available": true
         }
       ]
     },
@@ -3504,6 +2914,11 @@
           "date": "2026-10-21",
           "price": 159.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 159.0,
+          "available": true
         }
       ]
     },
@@ -3514,12 +2929,12 @@
       "url": "https://www.amazon.com/dp/B0GTB3BMYQ/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 328.53,
+      "currentPrice": 327.8,
       "firstPrice": 318.5,
       "minPrice": 274.99,
       "maxPrice": 339.99,
-      "change": 10.03,
-      "changePct": 3.15,
+      "change": 9.3,
+      "changePct": 2.92,
       "history": [
         {
           "date": "2026-08-18",
@@ -3779,6 +3194,11 @@
         {
           "date": "2026-10-21",
           "price": 328.53,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 327.8,
           "available": true
         }
       ]
@@ -4054,6 +3474,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 9.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 9.99,
           "available": true
         }
@@ -4332,6 +3757,11 @@
           "date": "2026-10-21",
           "price": 169.99,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 169.99,
+          "available": true
         }
       ]
     },
@@ -4606,6 +4036,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-22",
           "price": null,
           "available": false
         }
@@ -4884,6 +4319,11 @@
           "date": "2026-10-21",
           "price": 429.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 429.0,
+          "available": true
         }
       ]
     },
@@ -5158,6 +4598,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 656.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 656.99,
           "available": true
         }
@@ -5436,6 +4881,11 @@
           "date": "2026-10-21",
           "price": 144.99,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 144.99,
+          "available": true
         }
       ]
     },
@@ -5710,6 +5160,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 21.59,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 21.59,
           "available": true
         }
@@ -5988,6 +5443,11 @@
           "date": "2026-10-21",
           "price": 32.99,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 32.99,
+          "available": true
         }
       ]
     },
@@ -6262,6 +5722,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 37.35,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 37.35,
           "available": true
         }
@@ -6540,6 +6005,11 @@
           "date": "2026-10-21",
           "price": 31.99,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 31.99,
+          "available": true
         }
       ]
     },
@@ -6814,6 +6284,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 144.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 144.99,
           "available": true
         }
@@ -7092,6 +6567,11 @@
           "date": "2026-10-21",
           "price": 199.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 199.0,
+          "available": true
         }
       ]
     },
@@ -7366,6 +6846,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 44.0,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 44.0,
           "available": true
         }
@@ -7644,6 +7129,11 @@
           "date": "2026-10-21",
           "price": 160.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 160.0,
+          "available": true
         }
       ]
     },
@@ -7918,6 +7408,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 479.0,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 479.0,
           "available": true
         }
@@ -8196,6 +7691,11 @@
           "date": "2026-10-21",
           "price": 25.64,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 25.64,
+          "available": true
         }
       ]
     },
@@ -8470,6 +7970,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 16.15,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 16.15,
           "available": true
         }
@@ -8748,6 +8253,11 @@
           "date": "2026-10-21",
           "price": 21.62,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 21.62,
+          "available": true
         }
       ]
     },
@@ -9022,6 +8532,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-22",
           "price": null,
           "available": false
         }
@@ -9300,6 +8815,11 @@
           "date": "2026-10-21",
           "price": 50.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 50.0,
+          "available": true
         }
       ]
     },
@@ -9574,6 +9094,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": 25.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-22",
           "price": 25.99,
           "available": true
         }
@@ -9852,6 +9377,11 @@
           "date": "2026-10-21",
           "price": 479.0,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 479.0,
+          "available": true
         }
       ]
     },
@@ -10126,6 +9656,11 @@
         },
         {
           "date": "2026-10-21",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-22",
           "price": null,
           "available": false
         }
@@ -10404,6 +9939,11 @@
           "date": "2026-10-21",
           "price": 51.1,
           "available": true
+        },
+        {
+          "date": "2026-10-22",
+          "price": 51.1,
+          "available": true
         }
       ]
     },
@@ -10538,6 +10078,651 @@
         {
           "date": "2026-08-18",
           "price": 8.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0FD3PQXNL",
+      "asin": "B0FD3PQXNL",
+      "title": "U-QE 50Pcs Blue Plastic Plates - Botanical Stripes Plates Disposable | Heavy Duty, Fancy Floral Pattern Perfect for Weddings, Tea Parties, Holidays, 10.25\" Dinner & 7.5\" Dessert Plastic Plates",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 38.99,
+      "firstPrice": 36.99,
+      "minPrice": 36.99,
+      "maxPrice": 38.99,
+      "change": 2.0,
+      "changePct": 5.41,
+      "history": [
+        {
+          "date": "2026-09-15",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-19",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-20",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-21",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-22",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-23",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-24",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-25",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-29",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-30",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-01",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-02",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-03",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-09",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 36.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-17",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-18",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-19",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-20",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-21",
+          "price": 38.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B07YYVHMXB",
+      "asin": "B07YYVHMXB",
+      "title": "VENO 5 Pack Summer Wreath Storage Bag, Spring, Christmas Decoration Garland Container, 30 Inch Clear Door Wreath Organizers, Moving Boxes, Packing Supplies for College (Square - 5 Pack)",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 41.49,
+      "firstPrice": 41.99,
+      "minPrice": 41.49,
+      "maxPrice": 41.99,
+      "change": -0.5,
+      "changePct": -1.19,
+      "history": [
+        {
+          "date": "2026-09-26",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-29",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-30",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-01",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-02",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-03",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-09",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": 41.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-17",
+          "price": 41.49,
+          "available": true
+        },
+        {
+          "date": "2026-10-18",
+          "price": 41.49,
+          "available": true
+        },
+        {
+          "date": "2026-10-19",
+          "price": 41.49,
+          "available": true
+        },
+        {
+          "date": "2026-10-20",
+          "price": 41.49,
+          "available": true
+        },
+        {
+          "date": "2026-10-21",
+          "price": 41.49,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0H3PK2MX3",
+      "asin": "B0H3PK2MX3",
+      "title": "Women Boho Lace Trim Tank top Sleeveless Button Down Front Tie Lace Babydoll Tops Flowy Crop Top Beach Vacation Tops",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 28.99,
+      "firstPrice": 29.99,
+      "minPrice": 28.99,
+      "maxPrice": 29.99,
+      "change": -1.0,
+      "changePct": -3.33,
+      "history": [
+        {
+          "date": "2026-09-29",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-09-30",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-01",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-02",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-03",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-09",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-17",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-18",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-19",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-20",
+          "price": 28.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-21",
+          "price": 28.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0H1HWRB1T",
+      "asin": "B0H1HWRB1T",
+      "title": "Womens 2 Piece Skirt Sets Fall Knit Sweaters and Mini Skirt Casual Outfits | Long Sleeve, Crewneck Tops, High Waisted, Scalloped Mini Skirt, Color Block, Soft Comfy, Fashion Outfits",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 48.98,
+      "firstPrice": 43.98,
+      "minPrice": 43.98,
+      "maxPrice": 48.98,
+      "change": 5.0,
+      "changePct": 11.37,
+      "history": [
+        {
+          "date": "2026-10-02",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-03",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-09",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 43.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-17",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-18",
+          "price": 45.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-19",
+          "price": 47.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-20",
+          "price": 47.98,
+          "available": true
+        },
+        {
+          "date": "2026-10-21",
+          "price": 48.98,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B00EWCTBZC",
+      "asin": "B00EWCTBZC",
+      "title": "Front Door Garland Hanger, Adjustable to Different Door Widths | Heavy-Duty Cast Iron, Decorative Christmas Decor, Pressure Mount - No Nails, Screws, or Damage",
+      "url": "",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 59.99,
+      "firstPrice": 59.99,
+      "minPrice": 59.99,
+      "maxPrice": 59.99,
+      "change": 0.0,
+      "changePct": 0.0,
+      "history": [
+        {
+          "date": "2026-10-03",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-09",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-17",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-18",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-19",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-20",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-10-21",
+          "price": 59.99,
           "available": true
         }
       ]
