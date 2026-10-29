@@ -14,7 +14,7 @@
     "asin": "B0GSGS2TVH",
     "item_id": "ITF3Q4MMMA67Z",
     "title": "Camp Snap Pro 16MP Screen-Free Digital Camera, Xenon Flash, 4 Customizable Filters, 4GB Memory Card, USB-C Rechargeable Battery, Compact and Durable",
-    "price": 114.22,
+    "price": 109.76,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GSGS2TVH/"
@@ -40,16 +40,6 @@
     "url": "https://www.amazon.com/dp/B0F9BX1TJX/"
   },
   {
-    "key": "B09BTLP4P1",
-    "asin": "B09BTLP4P1",
-    "item_id": "I3496FGAMW5MFT",
-    "title": "Normcore 58.5mm Coffee Tamper V4 - Spring-Loaded Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Stainless Steel Flat Base,Black",
-    "price": 42.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B09BTLP4P1/"
-  },
-  {
     "key": "B001RBTSMM",
     "asin": "B001RBTSMM",
     "item_id": "I3FCZD72VB4QBT",
@@ -60,104 +50,14 @@
     "url": "https://www.amazon.com/dp/B001RBTSMM/"
   },
   {
-    "key": "B09GKTHBPH",
-    "asin": "B09GKTHBPH",
-    "item_id": "I3H126LX6CX1OU",
-    "title": "Sorbus Soda Can Organizer for Fridge & Freezer, Stackable with Lid (2 Pack) | Clear dispenser holds 12 cans for refrigerator and pantry organization; secure lids and BPA-free construction.",
-    "price": 29.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B09GKTHBPH/"
-  },
-  {
     "key": "B0H6B2D9G6",
     "asin": "B0H6B2D9G6",
     "item_id": "I3CMIU8LX4AAL4",
     "title": "8Bitdo FlipPad Mobile Gaming Controller for iPhone and Android, G Classic | Flip-Style, USB-C Plug and Play, Vertical Mobile Gaming, Pocket-Ready and Case-Friendly, Tactile D-pad and ABXY controls",
-    "price": 30.05,
-    "currency": "USD",
+    "price": 24.88,
+    "currency": null,
     "available": true,
     "url": "https://www.amazon.com/dp/B0H6B2D9G6/"
-  },
-  {
-    "key": "B09DDC7KMQ",
-    "asin": "B09DDC7KMQ",
-    "item_id": "I225W0IRZJL69Z",
-    "title": "Normcore 58.5mm Puck Screen - Lower Shower Screen - Metal Coffee Reusable Filter for Espresso Portafilter Filter Basket 58mm - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
-    "price": 13.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B09DDC7KMQ/"
-  },
-  {
-    "key": "B0FQMJGS4T",
-    "asin": "B0FQMJGS4T",
-    "item_id": "IV0UBMM295PGT",
-    "title": "Fellow Pirch Cappuccino Cups 6.5 oz, Set of 2, Weighted Glass - Amber | Handcrafted Espresso Cup Set for Latte Art & Espresso, Dishwasher and Microwave Safe, Curved Interior, Soda Lime Coffee Mugs",
-    "price": 39.95,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0FQMJGS4T/"
-  },
-  {
-    "key": "B0BF7DXLBF",
-    "asin": "B0BF7DXLBF",
-    "item_id": "IU77YZXOZZXDF",
-    "title": "Fellow Stagg EKG Pro Gooseneck Electric Kettle, Brew Timer, 0.9 Liter | Temperature Control, Color LCD, Temp Hold, Stainless Steel Tea Kettle, for Pour-Over Coffee & Tea, Quick Heating, Matte Black",
-    "price": 179.95,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0BF7DXLBF/"
-  },
-  {
-    "key": "B07GNDDNMW",
-    "asin": "B07GNDDNMW",
-    "item_id": "I3NSX8I0OF132Q",
-    "title": "SIHOO M18 Ergonomic Office Chair, Mesh Back Desk Chair with Headrest | Adjustable Lumbar Support, Hold 330lbs Computer Chair with 2D Armrests & Wide Cushion, Tilt Lock, for Home Office - Black",
-    "price": 132.53,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B07GNDDNMW/"
-  },
-  {
-    "key": "B0FT39RFJB",
-    "asin": "B0FT39RFJB",
-    "item_id": "I3REJ2Z3EOJ3HD",
-    "title": "CoolGeek M1 Vertical CD Player for Wall & Desk, Transparent Industrial Art Decor, Hi-Fi Bluetooth Transmitter (Requires External Speaker), 8H Rechargeable Battery, Wire-Free Aesthetic",
-    "price": 159.0,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0FT39RFJB/"
-  },
-  {
-    "key": "B0GTB3BMYQ",
-    "asin": "B0GTB3BMYQ",
-    "item_id": "I1FL364PQOPWUS",
-    "title": "iRobot Roomba 105X Robot Vacuum & Mop Combo, AutoEmpty Dock, Self\u2011Emptying for Up to 75 Days, 70\u00d7 Power\u2011Lifting Suction, Smart LiDAR Mapping, App & Voice Control, Ideal for Homes with Pets & Kids",
-    "price": 290.83,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0GTB3BMYQ/"
-  },
-  {
-    "key": "B07WCR5Y4B",
-    "asin": "B07WCR5Y4B",
-    "item_id": "I36EXJIRO7KRZP",
-    "title": "TempPro TempAir Digital Hygrometer Indoor Thermometer | Humidity Meter Room Thermometer with Temperature and Humidity Monitor Mini Hygrometer",
-    "price": 9.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B07WCR5Y4B/"
-  },
-  {
-    "key": "B0D1KB96ZP",
-    "asin": "B0D1KB96ZP",
-    "item_id": "I39XRT1FQJCAGO",
-    "title": "Pagani Design GMT Automatic Mechanical Men's Watch Rotating Ceramic Bezel Stainless Steel Watch with Date Function Men's Sport Watch",
-    "price": 169.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0D1KB96ZP/"
   },
   {
     "key": "B0FDZHJCS2",
@@ -168,46 +68,6 @@
     "currency": null,
     "available": false,
     "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
-  },
-  {
-    "key": "B0DVZBR9TJ",
-    "asin": "B0DVZBR9TJ",
-    "item_id": "I1Q4XIXONYIP0F",
-    "title": "BuzzTV P6 PowerStation Media Hub with 16GB DDR4 RAM, Expandable NVMe Storage, Android 13, Dual Quad-Core Processors, Wireless AX and BT-500 Smart Remote",
-    "price": 429.0,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0DVZBR9TJ/"
-  },
-  {
-    "key": "B0D22JRHZB",
-    "asin": "B0D22JRHZB",
-    "item_id": "ITKJWU73M7L42",
-    "title": "UGREEN DXP4800 Plus 4-Bay NAS for Families, Creators & Small Teams | 4K Home Media, File Server & Hardware Transcoding, Intel 8505, 8GB DDR5, 10GbE&2.5GbE, Built-in 128G SSD, 2xM.2 NVMe,Diskless",
-    "price": 632.98,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0D22JRHZB/"
-  },
-  {
-    "key": "B0CNSMHQ3J",
-    "asin": "B0CNSMHQ3J",
-    "item_id": "I17R9K20M03SXX",
-    "title": "LACZ DENTON Pagani Design DD40 PD1783 Men's Watches Luxury Automatic Watch Men AR Sapphire Glass Mechanical Wristwatch Men 10Bar Japan Movement",
-    "price": 144.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0CNSMHQ3J/"
-  },
-  {
-    "key": "B0CXDTP94L",
-    "asin": "B0CXDTP94L",
-    "item_id": "I1H5MQZOP9CES3",
-    "title": "68oz 304 Stainless Steel Deep Fryer Pot with Basket & Strainer, Large Capacity Bacon Grease Container for Kitchen,Frying, Cooking, Camping,Oil Filter Container - Dishwasher Safe (68oz/2L/2.1Qt)",
-    "price": 21.59,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0CXDTP94L/"
   },
   {
     "key": "B0DWT9J5L3",
@@ -224,7 +84,7 @@
     "asin": "B093H8RGXX",
     "item_id": "I1TLY12MG73F4K",
     "title": "Cascadia, Award-Winning Cozy Nature Board Game Set in the Pacific Northwest | 1-4 Players, Ages 10+, 30-45 Mins, Relaxing Tile-Laying, Build Habitats, Place Wildlife & Create Wildlife Corridors",
-    "price": 37.2,
+    "price": 37.15,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B093H8RGXX/"
@@ -238,26 +98,6 @@
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B00NX627HW/"
-  },
-  {
-    "key": "B0CP5RMFN7",
-    "asin": "B0CP5RMFN7",
-    "item_id": "IRPDG2XCLM0NE",
-    "title": "RollsTimi Pagani Design DD40 PD1783 Watches for Men, Japanese Automatic Movement, Day/Date Calendar, Stainless Steel Bracelet, Sapphire Crystal, Luxury Men's Automatic Watch.",
-    "price": 144.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0CP5RMFN7/"
-  },
-  {
-    "key": "B0FQFB8FMG",
-    "asin": "B0FQFB8FMG",
-    "item_id": "I22142G5IOO2ZR",
-    "title": "Apple AirPods Pro 3 Wireless Earbuds with Active Noise Cancellation | Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, USB-C Charging",
-    "price": 199.0,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0FQFB8FMG/"
   },
   {
     "key": "B0DPR9LBJC",
@@ -278,96 +118,6 @@
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B07BL7JXHV/"
-  },
-  {
-    "key": "B095QX1FSR",
-    "asin": "B095QX1FSR",
-    "item_id": "I1BNX13CZDTLV3",
-    "title": "Garmin Approach R10, Portable Golf Launch Monitor, Take Your Game Home, Indoors or to The Driving Range, Up to 10 Hours Battery Life - 010-02356-00",
-    "price": 499.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B095QX1FSR/"
-  },
-  {
-    "key": "B08HLVDCZW",
-    "asin": "B08HLVDCZW",
-    "item_id": "I2HHXMWKNI7UL1",
-    "title": "Piscifun Speed X Fishing Line Spool No Twist Adjustable Handle for Reels | Aluminium handle, Fits spinning/bait/spincast reels, Prevents line twists, Smooth unwinding for easy spooling",
-    "price": 29.99,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B08HLVDCZW/"
-  },
-  {
-    "key": "0300270968",
-    "asin": "0300270968",
-    "item_id": "I3MRWHZEMQ9570",
-    "title": "King Dollar: The Past and Future of the World's Dominant Currency",
-    "price": 16.15,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/0300270968/"
-  },
-  {
-    "key": "B076QDH9MY",
-    "asin": "B076QDH9MY",
-    "item_id": "IE2DRY6MIIVNN",
-    "title": "Z-MAN Evergreen Jack Hammer Chatterbait 3/8 Oz",
-    "price": 21.62,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B076QDH9MY/"
-  },
-  {
-    "key": "B079ZPLL97",
-    "asin": "B079ZPLL97",
-    "item_id": "ISYIWW6FMCFC7",
-    "title": "ONO Roller - Handheld Fidget Toy for Adults | Help Relieve Stress, Anxiety, Tension | Promotes Focus, Clarity | Compact, Portable Design (Black, Full Size - Aluminum)",
-    "price": null,
-    "currency": null,
-    "available": false,
-    "url": "https://www.amazon.com/dp/B079ZPLL97/"
-  },
-  {
-    "key": "B0BCHHCZ2J",
-    "asin": "B0BCHHCZ2J",
-    "item_id": "I2XGMXYMDOHHFW",
-    "title": "Advantage360 Blank Keycap Set - PBT Plastic | 76 Key Set | Logo Keycap Puller",
-    "price": 50.0,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0BCHHCZ2J/"
-  },
-  {
-    "key": "B0BCHFSRN2",
-    "asin": "B0BCHFSRN2",
-    "item_id": "IZBMRKWY7R120",
-    "title": "Advantage360 Palm Pads - Magnetic | Cushioned Foam | Washable",
-    "price": 34.0,
-    "currency": null,
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0BCHFSRN2/"
-  },
-  {
-    "key": "B0BCHFHX6V",
-    "asin": "B0BCHFHX6V",
-    "item_id": "IUQMUY60RAWMZ",
-    "title": "Kinesis Advantage360 Split Ergonomic Keyboard - USB-C | Mechanical Switches | Fully Programmable | Contoured Shape | Adjustable Tenting | PBT Keycaps",
-    "price": 479.0,
-    "currency": "USD",
-    "available": true,
-    "url": "https://www.amazon.com/dp/B0BCHFHX6V/"
-  },
-  {
-    "key": "B0CF9THQDK",
-    "asin": "B0CF9THQDK",
-    "item_id": "I36P0F0DU9IBU1",
-    "title": "Blue Tees Golf Player+ AI-Powered GPS Speaker - Touchscreen Display, 10+ Hour Battery, 40,000+ Courses, Visual & Audible Distances, Hazard Detection, IPX7 Waterproof (Black)",
-    "price": null,
-    "currency": null,
-    "available": false,
-    "url": "https://www.amazon.com/dp/B0CF9THQDK/"
   },
   {
     "key": "B08F65MX4L",
