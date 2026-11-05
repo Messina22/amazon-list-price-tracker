@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-04T11:13:54Z",
+  "generatedAt": "2026-11-05T11:12:41Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-04",
+  "lastDate": "2026-11-05",
   "itemCount": 48,
   "availableCount": 45,
   "items": [
@@ -58,6 +58,11 @@
           "date": "2026-11-04",
           "price": 25.91,
           "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 25.91,
+          "available": true
         }
       ]
     },
@@ -68,12 +73,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 109.76,
+      "currentPrice": 117.0,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 119.99,
-      "change": -1.98,
-      "changePct": -1.77,
+      "change": 5.26,
+      "changePct": 4.71,
       "history": [
         {
           "date": "2026-10-08",
@@ -208,6 +213,11 @@
         {
           "date": "2026-11-04",
           "price": 109.76,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 117.0,
           "available": true
         }
       ]
@@ -453,6 +463,11 @@
         },
         {
           "date": "2026-11-04",
+          "price": 659.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
           "price": 659.99,
           "available": true
         }
@@ -721,6 +736,11 @@
           "date": "2026-11-04",
           "price": 18.0,
           "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 18.0,
+          "available": true
         }
       ]
     },
@@ -731,12 +751,12 @@
       "url": "https://www.amazon.com/dp/B001RBTSMM/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 12.8,
+      "currentPrice": 12.7,
       "firstPrice": 11.54,
       "minPrice": 11.54,
       "maxPrice": 12.83,
-      "change": 1.26,
-      "changePct": 10.92,
+      "change": 1.16,
+      "changePct": 10.05,
       "history": [
         {
           "date": "2026-08-30",
@@ -1026,6 +1046,11 @@
         {
           "date": "2026-11-04",
           "price": 12.8,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 12.7,
           "available": true
         }
       ]
@@ -1361,6 +1386,11 @@
         },
         {
           "date": "2026-11-04",
+          "price": 30.05,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
           "price": 30.05,
           "available": true
         }
@@ -1704,6 +1734,11 @@
           "date": "2026-11-04",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-11-05",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -2043,6 +2078,11 @@
         },
         {
           "date": "2026-11-04",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
           "price": 32.99,
           "available": true
         }
@@ -2386,6 +2426,11 @@
           "date": "2026-11-04",
           "price": 37.05,
           "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 37.05,
+          "available": true
         }
       ]
     },
@@ -2725,6 +2770,11 @@
         },
         {
           "date": "2026-11-04",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
           "price": 31.99,
           "available": true
         }
@@ -3068,6 +3118,11 @@
           "date": "2026-11-04",
           "price": 44.0,
           "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 44.0,
+          "available": true
         }
       ]
     },
@@ -3409,6 +3464,11 @@
           "date": "2026-11-04",
           "price": 148.0,
           "available": true
+        },
+        {
+          "date": "2026-11-05",
+          "price": 148.0,
+          "available": true
         }
       ]
     },
@@ -3748,6 +3808,11 @@
         },
         {
           "date": "2026-11-04",
+          "price": 51.1,
+          "available": true
+        },
+        {
+          "date": "2026-11-05",
           "price": 51.1,
           "available": true
         }
