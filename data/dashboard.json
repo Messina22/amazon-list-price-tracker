@@ -1,10 +1,52 @@
 {
-  "generatedAt": "2026-11-15T11:15:01Z",
+  "generatedAt": "2026-11-16T11:46:06Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-15",
-  "itemCount": 48,
-  "availableCount": 45,
+  "lastDate": "2026-11-16",
+  "itemCount": 50,
+  "availableCount": 47,
   "items": [
+    {
+      "key": "B0F8NRNNCH",
+      "asin": "B0F8NRNNCH",
+      "title": "FEUNLEM Ceramic Coffee Bean Dosing Cup for Espresso with 8ml RDT Sprayer | Espresso Dosing Cup with 25g Ceramic Tray and 8ml RDT Spray Bottle; Measure, Mist and Grind with Less Static and Less Mess",
+      "url": "https://www.amazon.com/dp/B0F8NRNNCH/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 8.99,
+      "firstPrice": 8.99,
+      "minPrice": 8.99,
+      "maxPrice": 8.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "price": 8.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0GY5Z9K45",
+      "asin": "B0GY5Z9K45",
+      "title": "Normcore 58mm Lay-Flat Bottomless Portafilter for Gaggia | 180\u00b0 Lay-Flat Design, Carbon Fiber Handle, Bottomless Extraction View, Open-Sided Head, Fits Gaggia 58mm Machines",
+      "url": "https://www.amazon.com/dp/B0GY5Z9K45/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 69.99,
+      "firstPrice": 69.99,
+      "minPrice": 69.99,
+      "maxPrice": 69.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "price": 69.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B09T4YFRJR",
       "asin": "B09T4YFRJR",
@@ -12,12 +54,12 @@
       "url": "https://www.amazon.com/dp/B09T4YFRJR/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 25.44,
+      "currentPrice": 25.91,
       "firstPrice": 25.91,
       "minPrice": 25.44,
       "maxPrice": 25.91,
-      "change": -0.47,
-      "changePct": -1.81,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-10-28",
@@ -113,6 +155,11 @@
           "date": "2026-11-15",
           "price": 25.44,
           "available": true
+        },
+        {
+          "date": "2026-11-16",
+          "price": 25.91,
+          "available": true
         }
       ]
     },
@@ -123,12 +170,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 113.99,
+      "currentPrice": 115.23,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 119.99,
-      "change": 2.25,
-      "changePct": 2.01,
+      "change": 3.49,
+      "changePct": 3.12,
       "history": [
         {
           "date": "2026-10-08",
@@ -318,6 +365,11 @@
         {
           "date": "2026-11-15",
           "price": 113.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
+          "price": 115.23,
           "available": true
         }
       ]
@@ -618,6 +670,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 559.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 559.99,
           "available": true
         }
@@ -939,6 +996,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 18.0,
           "available": true
         }
@@ -1300,6 +1362,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 12.13,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 12.13,
           "available": true
         }
@@ -1691,6 +1758,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 30.33,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 30.33,
           "available": true
         }
@@ -2089,6 +2161,11 @@
           "date": "2026-11-15",
           "price": null,
           "available": false
+        },
+        {
+          "date": "2026-11-16",
+          "price": null,
+          "available": false
         }
       ]
     },
@@ -2483,6 +2560,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 32.99,
           "available": true
         }
@@ -2881,6 +2963,11 @@
           "date": "2026-11-15",
           "price": 37.05,
           "available": true
+        },
+        {
+          "date": "2026-11-16",
+          "price": 37.05,
+          "available": true
         }
       ]
     },
@@ -3275,6 +3362,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 31.99,
           "available": true
         }
@@ -3673,6 +3765,11 @@
           "date": "2026-11-15",
           "price": 44.0,
           "available": true
+        },
+        {
+          "date": "2026-11-16",
+          "price": 44.0,
+          "available": true
         }
       ]
     },
@@ -4069,6 +4166,11 @@
           "date": "2026-11-15",
           "price": 148.0,
           "available": true
+        },
+        {
+          "date": "2026-11-16",
+          "price": 148.0,
+          "available": true
         }
       ]
     },
@@ -4463,6 +4565,11 @@
         },
         {
           "date": "2026-11-15",
+          "price": 51.1,
+          "available": true
+        },
+        {
+          "date": "2026-11-16",
           "price": 51.1,
           "available": true
         }
