@@ -1,5 +1,15 @@
 [
   {
+    "key": "B0FV9YLH5K",
+    "asin": "B0FV9YLH5K",
+    "item_id": "I3Q8FWZ97FXP5G",
+    "title": "Magical Athlete Board Game - Race a Baby Against a Banana",
+    "price": 26.99,
+    "currency": null,
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0FV9YLH5K/"
+  },
+  {
     "key": "B0F8NRNNCH",
     "asin": "B0F8NRNNCH",
     "item_id": "I36IG358MO8BQP",
@@ -34,7 +44,7 @@
     "asin": "B0GSGS2TVH",
     "item_id": "ITF3Q4MMMA67Z",
     "title": "Camp Snap Pro 16MP Screen-Free Digital Camera, Xenon Flash, 4 Customizable Filters, 4GB Memory Card, USB-C Rechargeable Battery, Compact and Durable",
-    "price": 117.11,
+    "price": 119.77,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GSGS2TVH/"
@@ -78,16 +88,6 @@
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0H6B2D9G6/"
-  },
-  {
-    "key": "B0FDZHJCS2",
-    "asin": "B0FDZHJCS2",
-    "item_id": "IG0ZA3XP2DQ6T",
-    "title": "Thunderworks Games FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-    "price": null,
-    "currency": null,
-    "available": false,
-    "url": "https://www.amazon.com/dp/B0FDZHJCS2/"
   },
   {
     "key": "B0DWT9J5L3",

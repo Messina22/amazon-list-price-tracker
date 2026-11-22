@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-11-21T11:26:32Z",
+  "generatedAt": "2026-11-22T11:41:22Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-21",
-  "itemCount": 50,
-  "availableCount": 47,
+  "lastDate": "2026-11-22",
+  "itemCount": 51,
+  "availableCount": 48,
   "items": [
+    {
+      "key": "B0FV9YLH5K",
+      "asin": "B0FV9YLH5K",
+      "title": "Magical Athlete Board Game - Race a Baby Against a Banana",
+      "url": "https://www.amazon.com/dp/B0FV9YLH5K/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 26.99,
+      "firstPrice": 26.99,
+      "minPrice": 26.99,
+      "maxPrice": 26.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-22",
+          "price": 26.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0F8NRNNCH",
       "asin": "B0F8NRNNCH",
@@ -46,6 +67,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 8.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 8.99,
           "available": true
         }
@@ -92,6 +118,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 69.99,
           "available": true
         }
@@ -235,6 +266,11 @@
           "date": "2026-11-21",
           "price": 25.91,
           "available": true
+        },
+        {
+          "date": "2026-11-22",
+          "price": 25.91,
+          "available": true
         }
       ]
     },
@@ -245,12 +281,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 117.11,
+      "currentPrice": 119.77,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 120.99,
-      "change": 5.37,
-      "changePct": 4.81,
+      "change": 8.03,
+      "changePct": 7.19,
       "history": [
         {
           "date": "2026-10-08",
@@ -470,6 +506,11 @@
         {
           "date": "2026-11-21",
           "price": 117.11,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
+          "price": 119.77,
           "available": true
         }
       ]
@@ -800,6 +841,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 527.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 527.99,
           "available": true
         }
@@ -1151,6 +1197,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 18.0,
           "available": true
         }
@@ -1542,6 +1593,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 12.02,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 12.02,
           "available": true
         }
@@ -1965,432 +2021,11 @@
           "date": "2026-11-21",
           "price": 30.33,
           "available": true
-        }
-      ]
-    },
-    {
-      "key": "B0FDZHJCS2",
-      "asin": "B0FDZHJCS2",
-      "title": "Thunderworks Games FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
-      "url": "https://www.amazon.com/dp/B0FDZHJCS2/",
-      "currency": "USD",
-      "available": false,
-      "currentPrice": 19.95,
-      "firstPrice": 19.95,
-      "minPrice": 18.95,
-      "maxPrice": 19.95,
-      "change": 0.0,
-      "changePct": 0.0,
-      "history": [
+        },
         {
-          "date": "2026-08-18",
-          "price": 19.95,
+          "date": "2026-11-22",
+          "price": 30.33,
           "available": true
-        },
-        {
-          "date": "2026-08-22",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-24",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-26",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-27",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-28",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-29",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-08-30",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-01",
-          "price": 18.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-02",
-          "price": 18.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-03",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-04",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-05",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-06",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-07",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-08",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-09",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-10",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-11",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-12",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-13",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-15",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-19",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-20",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-21",
-          "price": 18.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-22",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-23",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-24",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-25",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-26",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-29",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-09-30",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-01",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-02",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-03",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-05",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-06",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-07",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-08",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-09",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-10",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-11",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-12",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-13",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-14",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-15",
-          "price": 19.95,
-          "available": true
-        },
-        {
-          "date": "2026-10-16",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-17",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-18",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-19",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-20",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-21",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-22",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-23",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-24",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-25",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-26",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-28",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-29",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-30",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-10-31",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-01",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-02",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-03",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-04",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-05",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-06",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-07",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-08",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-09",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-10",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-11",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-12",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-13",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-14",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-15",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-16",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-17",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-18",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-19",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-20",
-          "price": null,
-          "available": false
-        },
-        {
-          "date": "2026-11-21",
-          "price": null,
-          "available": false
         }
       ]
     },
@@ -2815,6 +2450,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 32.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 32.99,
           "available": true
         }
@@ -3243,6 +2883,11 @@
           "date": "2026-11-21",
           "price": 29.64,
           "available": true
+        },
+        {
+          "date": "2026-11-22",
+          "price": 29.64,
+          "available": true
         }
       ]
     },
@@ -3667,6 +3312,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 31.99,
           "available": true
         }
@@ -4095,6 +3745,11 @@
           "date": "2026-11-21",
           "price": 44.0,
           "available": true
+        },
+        {
+          "date": "2026-11-22",
+          "price": 44.0,
+          "available": true
         }
       ]
     },
@@ -4521,6 +4176,11 @@
           "date": "2026-11-21",
           "price": 148.0,
           "available": true
+        },
+        {
+          "date": "2026-11-22",
+          "price": 148.0,
+          "available": true
         }
       ]
     },
@@ -4945,6 +4605,11 @@
         },
         {
           "date": "2026-11-21",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-22",
           "price": 38.99,
           "available": true
         }
@@ -10590,6 +10255,432 @@
           "date": "2026-10-28",
           "price": 429.0,
           "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0FDZHJCS2",
+      "asin": "B0FDZHJCS2",
+      "title": "Thunderworks Games FlipToons | an Animated Deck-Building Card Game! | Easy to Learn Game with Classic Cartoon Style | Portable Small Box Family Game for 1-4 Players, Ages 10+, 15-30 Minutes",
+      "url": "",
+      "currency": "USD",
+      "available": false,
+      "currentPrice": 19.95,
+      "firstPrice": 19.95,
+      "minPrice": 18.95,
+      "maxPrice": 19.95,
+      "change": 0.0,
+      "changePct": 0.0,
+      "history": [
+        {
+          "date": "2026-08-18",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-22",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-24",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-26",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-27",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-28",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-29",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-08-30",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-01",
+          "price": 18.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-02",
+          "price": 18.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-03",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-04",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-05",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-06",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-07",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-08",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-09",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-10",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-11",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-12",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-13",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-15",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-19",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-20",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-21",
+          "price": 18.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-22",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-23",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-24",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-25",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-26",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-29",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-09-30",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-01",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-02",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-03",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-05",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-06",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-07",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-08",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-09",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-10",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-11",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-12",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-13",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-14",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-15",
+          "price": 19.95,
+          "available": true
+        },
+        {
+          "date": "2026-10-16",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-17",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-18",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-19",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-20",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-21",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-22",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-23",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-24",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-25",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-26",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-28",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-29",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-30",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-10-31",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-01",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-02",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-03",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-04",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-05",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-06",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-07",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-08",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-09",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-10",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-11",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-12",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-13",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-14",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-15",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-16",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-17",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-18",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-19",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-20",
+          "price": null,
+          "available": false
+        },
+        {
+          "date": "2026-11-21",
+          "price": null,
+          "available": false
         }
       ]
     },
