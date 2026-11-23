@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-11-22T11:41:22Z",
+  "generatedAt": "2026-11-23T13:15:49Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-22",
-  "itemCount": 51,
-  "availableCount": 48,
+  "lastDate": "2026-11-23",
+  "itemCount": 52,
+  "availableCount": 49,
   "items": [
+    {
+      "key": "B074KHPS7F",
+      "asin": "B074KHPS7F",
+      "title": "OXO Brew Pour Over Gooseneck Electric Kettle - Stainless Steel | Adjustable Temperature Control, Built-In Timer, Cord Free, Precise Pour, Automatic Shut-Off, Coffee And Tea",
+      "url": "https://www.amazon.com/dp/B074KHPS7F/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 89.99,
+      "firstPrice": 89.99,
+      "minPrice": 89.99,
+      "maxPrice": 89.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-23",
+          "price": 89.99,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0FV9YLH5K",
       "asin": "B0FV9YLH5K",
@@ -16,11 +37,16 @@
       "firstPrice": 26.99,
       "minPrice": 26.99,
       "maxPrice": 26.99,
-      "change": null,
-      "changePct": null,
+      "change": 0.0,
+      "changePct": 0.0,
       "history": [
         {
           "date": "2026-11-22",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 26.99,
           "available": true
         }
@@ -74,6 +100,11 @@
           "date": "2026-11-22",
           "price": 8.99,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 8.99,
+          "available": true
         }
       ]
     },
@@ -123,6 +154,11 @@
         },
         {
           "date": "2026-11-22",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 69.99,
           "available": true
         }
@@ -271,6 +307,11 @@
           "date": "2026-11-22",
           "price": 25.91,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 25.91,
+          "available": true
         }
       ]
     },
@@ -281,12 +322,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 119.77,
+      "currentPrice": 118.0,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 120.99,
-      "change": 8.03,
-      "changePct": 7.19,
+      "change": 6.26,
+      "changePct": 5.6,
       "history": [
         {
           "date": "2026-10-08",
@@ -511,6 +552,11 @@
         {
           "date": "2026-11-22",
           "price": 119.77,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 118.0,
           "available": true
         }
       ]
@@ -846,6 +892,11 @@
         },
         {
           "date": "2026-11-22",
+          "price": 527.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 527.99,
           "available": true
         }
@@ -1204,6 +1255,11 @@
           "date": "2026-11-22",
           "price": 18.0,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 18.0,
+          "available": true
         }
       ]
     },
@@ -1214,12 +1270,12 @@
       "url": "https://www.amazon.com/dp/B001RBTSMM/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 12.02,
+      "currentPrice": 12.65,
       "firstPrice": 11.54,
       "minPrice": 11.54,
       "maxPrice": 12.83,
-      "change": 0.48,
-      "changePct": 4.16,
+      "change": 1.11,
+      "changePct": 9.62,
       "history": [
         {
           "date": "2026-08-30",
@@ -1599,6 +1655,11 @@
         {
           "date": "2026-11-22",
           "price": 12.02,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 12.65,
           "available": true
         }
       ]
@@ -2024,6 +2085,11 @@
         },
         {
           "date": "2026-11-22",
+          "price": 30.33,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 30.33,
           "available": true
         }
@@ -2457,6 +2523,11 @@
           "date": "2026-11-22",
           "price": 32.99,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 32.99,
+          "available": true
         }
       ]
     },
@@ -2886,6 +2957,11 @@
         },
         {
           "date": "2026-11-22",
+          "price": 29.64,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 29.64,
           "available": true
         }
@@ -3319,6 +3395,11 @@
           "date": "2026-11-22",
           "price": 31.99,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 31.99,
+          "available": true
         }
       ]
     },
@@ -3329,12 +3410,12 @@
       "url": "https://www.amazon.com/dp/B0DPR9LBJC/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 44.0,
+      "currentPrice": 37.4,
       "firstPrice": 44.0,
       "minPrice": 37.4,
       "maxPrice": 44.0,
-      "change": 0.0,
-      "changePct": 0.0,
+      "change": -6.6,
+      "changePct": -15.0,
       "history": [
         {
           "date": "2026-08-18",
@@ -3749,6 +3830,11 @@
         {
           "date": "2026-11-22",
           "price": 44.0,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 37.4,
           "available": true
         }
       ]
@@ -4181,6 +4267,11 @@
           "date": "2026-11-22",
           "price": 148.0,
           "available": true
+        },
+        {
+          "date": "2026-11-23",
+          "price": 148.0,
+          "available": true
         }
       ]
     },
@@ -4610,6 +4701,11 @@
         },
         {
           "date": "2026-11-22",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-23",
           "price": 38.99,
           "available": true
         }
