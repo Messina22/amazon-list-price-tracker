@@ -1,10 +1,73 @@
 {
-  "generatedAt": "2026-11-24T02:16:33Z",
+  "generatedAt": "2026-11-25T19:26:42Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-24",
-  "itemCount": 52,
-  "availableCount": 49,
+  "lastDate": "2026-11-25",
+  "itemCount": 55,
+  "availableCount": 52,
   "items": [
+    {
+      "key": "B0FQV64SVK",
+      "asin": "B0FQV64SVK",
+      "title": "Teyearlife Espresso Shot Mirror for Bottomless Portafilters | Don't fit Flair 58, Stainless steel surface, Magnetic adjustable base, Observing coffee flow rate and channel effects",
+      "url": "https://www.amazon.com/dp/B0FQV64SVK/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 11.99,
+      "firstPrice": 11.99,
+      "minPrice": 11.99,
+      "maxPrice": 11.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-25",
+          "price": 11.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0D8HVBVS6",
+      "asin": "B0D8HVBVS6",
+      "title": "Fellow Aiden Precision Smart Drip Coffee Maker, 1-10 Cup, Thermal Carafe | Programmable, Cold Brew Preset, App-Enabled Scheduling, Custom Brew Profiles, Bloom Cycle, for Home Brewing & Cold Brew",
+      "url": "https://www.amazon.com/dp/B0D8HVBVS6/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 319.95,
+      "firstPrice": 319.95,
+      "minPrice": 319.95,
+      "maxPrice": 319.95,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-25",
+          "price": 319.95,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0819SY8VP",
+      "asin": "B0819SY8VP",
+      "title": "BWT AQUAlizer Baselight 2.6L Water Filter Jug with 2 Magnesium Filters",
+      "url": "https://www.amazon.com/dp/B0819SY8VP/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 68.0,
+      "firstPrice": 68.0,
+      "minPrice": 68.0,
+      "maxPrice": 68.0,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-25",
+          "price": 68.0,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B074KHPS7F",
       "asin": "B074KHPS7F",
@@ -26,6 +89,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 89.99,
           "available": true
         }
@@ -57,6 +125,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 26.99,
           "available": true
         }
@@ -120,6 +193,11 @@
           "date": "2026-11-24",
           "price": 8.99,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 8.99,
+          "available": true
         }
       ]
     },
@@ -181,6 +259,11 @@
           "date": "2026-11-24",
           "price": 55.99,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 55.99,
+          "available": true
         }
       ]
     },
@@ -191,12 +274,12 @@
       "url": "https://www.amazon.com/dp/B09T4YFRJR/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 25.91,
+      "currentPrice": 25.13,
       "firstPrice": 25.91,
-      "minPrice": 25.44,
+      "minPrice": 25.13,
       "maxPrice": 25.91,
-      "change": 0.0,
-      "changePct": 0.0,
+      "change": -0.78,
+      "changePct": -3.01,
       "history": [
         {
           "date": "2026-10-28",
@@ -337,6 +420,11 @@
           "date": "2026-11-24",
           "price": 25.91,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 25.13,
+          "available": true
         }
       ]
     },
@@ -347,12 +435,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 120.99,
+      "currentPrice": 114.31,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 120.99,
-      "change": 9.25,
-      "changePct": 8.28,
+      "change": 2.57,
+      "changePct": 2.3,
       "history": [
         {
           "date": "2026-10-08",
@@ -588,13 +676,18 @@
           "date": "2026-11-24",
           "price": 120.99,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 114.31,
+          "available": true
         }
       ]
     },
     {
       "key": "B0GTZC19FX",
       "asin": "B0GTZC19FX",
-      "title": "UGREEN NAS DXP4800 GT 4-Bay for Creators, Tech Enthusiasts and Office Teams | Smart Home Data Hub, Direct NAS Editing & Dual 10GbE Transfers, Ryzen R2514, 8GB DDR4, 2x 10GbE, 2x M.2 NVMe Slots, Diskless",
+      "title": "UGREEN NAS DXP4800 GT 4-Bay for Media Sever, Stream, Creators &Office Teams | Smart Home Data Hub, Direct NAS Editing & Dual 10GbE Transfers, Ryzen R2514, 8GB DDR4, 2x 10GbE, 2x M.2 NVMe Slots, Diskless",
       "url": "https://www.amazon.com/dp/B0GTZC19FX/",
       "currency": "USD",
       "available": true,
@@ -932,6 +1025,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 527.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 527.99,
           "available": true
         }
@@ -1298,6 +1396,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 18.0,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 18.0,
           "available": true
         }
@@ -1704,6 +1807,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 12.65,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 12.65,
           "available": true
         }
@@ -2140,6 +2248,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 30.33,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 30.33,
           "available": true
         }
@@ -2583,6 +2696,11 @@
           "date": "2026-11-24",
           "price": 32.99,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 32.99,
+          "available": true
         }
       ]
     },
@@ -3022,6 +3140,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 29.64,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 29.64,
           "available": true
         }
@@ -3465,6 +3588,11 @@
           "date": "2026-11-24",
           "price": 31.99,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 31.99,
+          "available": true
         }
       ]
     },
@@ -3904,6 +4032,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 37.4,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 37.4,
           "available": true
         }
@@ -4347,6 +4480,11 @@
           "date": "2026-11-24",
           "price": 148.0,
           "available": true
+        },
+        {
+          "date": "2026-11-25",
+          "price": 148.0,
+          "available": true
         }
       ]
     },
@@ -4786,6 +4924,11 @@
         },
         {
           "date": "2026-11-24",
+          "price": 38.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-25",
           "price": 38.99,
           "available": true
         }

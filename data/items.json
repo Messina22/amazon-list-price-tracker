@@ -1,5 +1,35 @@
 [
   {
+    "key": "B0FQV64SVK",
+    "asin": "B0FQV64SVK",
+    "item_id": "I2846GRZENI1DN",
+    "title": "Teyearlife Espresso Shot Mirror for Bottomless Portafilters | Don't fit Flair 58, Stainless steel surface, Magnetic adjustable base, Observing coffee flow rate and channel effects",
+    "price": 11.99,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0FQV64SVK/"
+  },
+  {
+    "key": "B0D8HVBVS6",
+    "asin": "B0D8HVBVS6",
+    "item_id": "I26EHH2MSKBBYL",
+    "title": "Fellow Aiden Precision Smart Drip Coffee Maker, 1-10 Cup, Thermal Carafe | Programmable, Cold Brew Preset, App-Enabled Scheduling, Custom Brew Profiles, Bloom Cycle, for Home Brewing & Cold Brew",
+    "price": 319.95,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0D8HVBVS6/"
+  },
+  {
+    "key": "B0819SY8VP",
+    "asin": "B0819SY8VP",
+    "item_id": "I2RYMFMNURQHKM",
+    "title": "BWT AQUAlizer Baselight 2.6L Water Filter Jug with 2 Magnesium Filters",
+    "price": 68.0,
+    "currency": "USD",
+    "available": true,
+    "url": "https://www.amazon.com/dp/B0819SY8VP/"
+  },
+  {
     "key": "B074KHPS7F",
     "asin": "B074KHPS7F",
     "item_id": "I28DGBFRGTS6YO",
@@ -44,7 +74,7 @@
     "asin": "B09T4YFRJR",
     "item_id": "I2AX19QU6L3CBE",
     "title": "Nanoquartz Precision Shower Screen for Gaggia GA200NT",
-    "price": 25.91,
+    "price": 25.13,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B09T4YFRJR/"
@@ -54,7 +84,7 @@
     "asin": "B0GSGS2TVH",
     "item_id": "ITF3Q4MMMA67Z",
     "title": "Camp Snap Pro 16MP Screen-Free Digital Camera, Xenon Flash, 4 Customizable Filters, 4GB Memory Card, USB-C Rechargeable Battery, Compact and Durable",
-    "price": 120.99,
+    "price": 114.31,
     "currency": "USD",
     "available": true,
     "url": "https://www.amazon.com/dp/B0GSGS2TVH/"
@@ -63,7 +93,7 @@
     "key": "B0GTZC19FX",
     "asin": "B0GTZC19FX",
     "item_id": "I1LMPCI7NGUJAM",
-    "title": "UGREEN NAS DXP4800 GT 4-Bay for Creators, Tech Enthusiasts and Office Teams | Smart Home Data Hub, Direct NAS Editing & Dual 10GbE Transfers, Ryzen R2514, 8GB DDR4, 2x 10GbE, 2x M.2 NVMe Slots, Diskless",
+    "title": "UGREEN NAS DXP4800 GT 4-Bay for Media Sever, Stream, Creators &Office Teams | Smart Home Data Hub, Direct NAS Editing & Dual 10GbE Transfers, Ryzen R2514, 8GB DDR4, 2x 10GbE, 2x M.2 NVMe Slots, Diskless",
     "price": 527.99,
     "currency": "USD",
     "available": true,
@@ -95,7 +125,7 @@
     "item_id": "I3CMIU8LX4AAL4",
     "title": "8Bitdo FlipPad Mobile Gaming Controller for iPhone and Android, G Classic | Flip-Style, USB-C Plug and Play, Vertical Mobile Gaming, Pocket-Ready and Case-Friendly, Tactile D-pad and ABXY controls",
     "price": 30.33,
-    "currency": "USD",
+    "currency": null,
     "available": true,
     "url": "https://www.amazon.com/dp/B0H6B2D9G6/"
   },
