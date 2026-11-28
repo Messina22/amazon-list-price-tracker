@@ -1,10 +1,94 @@
 {
-  "generatedAt": "2026-11-27T12:48:30Z",
+  "generatedAt": "2026-11-28T12:00:14Z",
   "listUrl": "https://www.amazon.com/hz/wishlist/ls/JLOTK8JNGCCL",
-  "lastDate": "2026-11-27",
-  "itemCount": 55,
-  "availableCount": 52,
+  "lastDate": "2026-11-28",
+  "itemCount": 59,
+  "availableCount": 56,
   "items": [
+    {
+      "key": "B0FH2WPGQC",
+      "asin": "B0FH2WPGQC",
+      "title": "Normcore 49mm Coffee Tamper V4.1 Mini, Spring-Loaded with Click Feedback, Compatible with Rok Espresso Makers, Olympia Cremina, La Pavoni lever machines",
+      "url": "https://www.amazon.com/dp/B0FH2WPGQC/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 39.99,
+      "firstPrice": 39.99,
+      "minPrice": 39.99,
+      "maxPrice": 39.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-28",
+          "price": 39.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0FVDTNTF8",
+      "asin": "B0FVDTNTF8",
+      "title": "Normcore 58mm to 49mm Step-Down Portafilter Basket Kit, CNC-machined From a Solid Block of 304 Stainless Steel, 0.18mm Holes, Includes Dosing Funnel, 49mm Puck Screen, 200 Papers Filter",
+      "url": "https://www.amazon.com/dp/B0FVDTNTF8/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 55.99,
+      "firstPrice": 55.99,
+      "minPrice": 55.99,
+      "maxPrice": 55.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-28",
+          "price": 55.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0FR517Z7K",
+      "asin": "B0FR517Z7K",
+      "title": "Normcore 58mm to 49mm Step-Down Portafilter Basket Kit \u2013 Tapered Interior, 0.28mm Holes \u2013 Fits 58 mm Bottomless Portafilters \u2013 Includes 49mm Dosing Funnel, 0.8mm Puck Screen, 200 Papers",
+      "url": "https://www.amazon.com/dp/B0FR517Z7K/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 39.99,
+      "firstPrice": 39.99,
+      "minPrice": 39.99,
+      "maxPrice": 39.99,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-28",
+          "price": 39.99,
+          "available": true
+        }
+      ]
+    },
+    {
+      "key": "B0HFJ8R1WV",
+      "asin": "B0HFJ8R1WV",
+      "title": "Nylon Sport Band Compatible with Google Fitbit Air | Hook & Loop Adjustable Bands Only for Fit Bit Air, Breathable Replacement Straps for Men Women",
+      "url": "https://www.amazon.com/dp/B0HFJ8R1WV/",
+      "currency": "USD",
+      "available": true,
+      "currentPrice": 15.19,
+      "firstPrice": 15.19,
+      "minPrice": 15.19,
+      "maxPrice": 15.19,
+      "change": null,
+      "changePct": null,
+      "history": [
+        {
+          "date": "2026-11-28",
+          "price": 15.19,
+          "available": true
+        }
+      ]
+    },
     {
       "key": "B0FQV64SVK",
       "asin": "B0FQV64SVK",
@@ -31,6 +115,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 11.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 11.99,
           "available": true
         }
@@ -64,6 +153,11 @@
           "date": "2026-11-27",
           "price": 319.95,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 319.95,
+          "available": true
         }
       ]
     },
@@ -93,6 +187,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 68.0,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 68.0,
           "available": true
         }
@@ -134,6 +233,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 89.99,
           "available": true
         }
@@ -180,6 +284,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 26.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 26.99,
           "available": true
         }
@@ -258,6 +367,11 @@
           "date": "2026-11-27",
           "price": 8.99,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 8.99,
+          "available": true
         }
       ]
     },
@@ -332,6 +446,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 55.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 55.99,
           "available": true
         }
@@ -505,6 +624,11 @@
           "date": "2026-11-27",
           "price": 25.0,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 25.0,
+          "available": true
         }
       ]
     },
@@ -515,12 +639,12 @@
       "url": "https://www.amazon.com/dp/B0GSGS2TVH/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 117.22,
+      "currentPrice": 114.0,
       "firstPrice": 111.74,
       "minPrice": 97.0,
       "maxPrice": 120.99,
-      "change": 5.48,
-      "changePct": 4.9,
+      "change": 2.26,
+      "changePct": 2.02,
       "history": [
         {
           "date": "2026-10-08",
@@ -770,6 +894,11 @@
         {
           "date": "2026-11-27",
           "price": 117.22,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 114.0,
           "available": true
         }
       ]
@@ -1130,6 +1259,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 527.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 527.99,
           "available": true
         }
@@ -1513,6 +1647,11 @@
           "date": "2026-11-27",
           "price": 18.0,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 18.0,
+          "available": true
         }
       ]
     },
@@ -1523,12 +1662,12 @@
       "url": "https://www.amazon.com/dp/B001RBTSMM/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 12.65,
+      "currentPrice": 12.02,
       "firstPrice": 11.54,
       "minPrice": 11.54,
       "maxPrice": 12.83,
-      "change": 1.11,
-      "changePct": 9.62,
+      "change": 0.48,
+      "changePct": 4.16,
       "history": [
         {
           "date": "2026-08-30",
@@ -1933,6 +2072,11 @@
         {
           "date": "2026-11-27",
           "price": 12.65,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 12.02,
           "available": true
         }
       ]
@@ -2383,6 +2527,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 30.33,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 30.33,
           "available": true
         }
@@ -2841,6 +2990,11 @@
           "date": "2026-11-27",
           "price": 29.36,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 29.36,
+          "available": true
         }
       ]
     },
@@ -2851,12 +3005,12 @@
       "url": "https://www.amazon.com/dp/B093H8RGXX/",
       "currency": "USD",
       "available": true,
-      "currentPrice": 29.64,
+      "currentPrice": 37.05,
       "firstPrice": 37.73,
       "minPrice": 29.64,
       "maxPrice": 37.84,
-      "change": -8.09,
-      "changePct": -21.44,
+      "change": -0.68,
+      "changePct": -1.8,
       "history": [
         {
           "date": "2026-08-18",
@@ -3296,6 +3450,11 @@
         {
           "date": "2026-11-27",
           "price": 29.64,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 37.05,
           "available": true
         }
       ]
@@ -3751,6 +3910,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 31.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 31.99,
           "available": true
         }
@@ -4209,6 +4373,11 @@
           "date": "2026-11-27",
           "price": 37.4,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 37.4,
+          "available": true
         }
       ]
     },
@@ -4665,6 +4834,11 @@
           "date": "2026-11-27",
           "price": 125.8,
           "available": true
+        },
+        {
+          "date": "2026-11-28",
+          "price": 125.8,
+          "available": true
         }
       ]
     },
@@ -5119,6 +5293,11 @@
         },
         {
           "date": "2026-11-27",
+          "price": 59.99,
+          "available": true
+        },
+        {
+          "date": "2026-11-28",
           "price": 59.99,
           "available": true
         }
